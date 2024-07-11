@@ -61,6 +61,12 @@ build CMakeFiles/TRABALHO.dir/src/Input.cpp.obj: CXX_COMPILER__TRABALHO_unscanne
   OBJECT_DIR = CMakeFiles\TRABALHO.dir
   OBJECT_FILE_DIR = CMakeFiles\TRABALHO.dir\src
 
+build CMakeFiles/TRABALHO.dir/src/Pixel.cpp.obj: CXX_COMPILER__TRABALHO_unscanned_Debug C$:/Users/Eu/Documents/TRABALHO/src/Pixel.cpp || cmake_object_order_depends_target_TRABALHO
+  DEP_FILE = CMakeFiles\TRABALHO.dir\src\Pixel.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\TRABALHO.dir
+  OBJECT_FILE_DIR = CMakeFiles\TRABALHO.dir\src
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target TRABALHO
@@ -69,7 +75,7 @@ build CMakeFiles/TRABALHO.dir/src/Input.cpp.obj: CXX_COMPILER__TRABALHO_unscanne
 #############################################
 # Link the executable TRABALHO.exe
 
-build TRABALHO.exe: CXX_EXECUTABLE_LINKER__TRABALHO_Debug CMakeFiles/TRABALHO.dir/src/main.cpp.obj CMakeFiles/TRABALHO.dir/src/Input.cpp.obj
+build TRABALHO.exe: CXX_EXECUTABLE_LINKER__TRABALHO_Debug CMakeFiles/TRABALHO.dir/src/main.cpp.obj CMakeFiles/TRABALHO.dir/src/Input.cpp.obj CMakeFiles/TRABALHO.dir/src/Pixel.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\TRABALHO.dir

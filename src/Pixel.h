@@ -8,7 +8,15 @@
 
 
 class Pixel {
+private:
+    int cores[3];
+public:
+    Pixel();
+    Pixel(const int *_cores);
+    ~Pixel();
 
+    void imprimir();
+    void ler();
 };
 
 

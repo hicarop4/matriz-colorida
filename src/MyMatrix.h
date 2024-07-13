@@ -5,8 +5,10 @@
 #ifndef MYMATRIX_H
 #define MYMATRIX_H
 
+#include <cmath>
+
 #include "Calculadora.h"
-#include "CalculaMenorDistanciaPixelPreto.h"
+// #include "CalculaMenorDistanciaPixelPreto.h"
 
 using namespace std;
 
@@ -23,19 +25,22 @@ public:
     T& get(long long linha, long long coluna){return data[linha][coluna];}
     const T& get(long long linha, long long coluna) const {return data[linha][coluna];} //read-only
 
-    void gerarDistancias();
+    void lerEntrada() const;
+    void gerarDistanciasTrivial();
+    void gerarDistanciasTrivialMelhorado();
+
+    void imprimir() const;
     void imprimirDistancias() const;
+    void imprimirResumo() const;
 
     int getQtdColunas() const;
     int getQtdLinhas() const;
-    void imprimir() const;
-    void lerEntrada() const;
 
 private:
     // guarda os dados da matriz principal
     T **data;
     // guarda as distancias entre cada célula da matriz principal "data"
-    double **distancia;
+    double **distancias;
 
     int qtdColunas;
     int qtdLinhas;
@@ -49,28 +54,27 @@ MyMatrix<T>::MyMatrix(int _qtdColunas, int _qtdLinhas)
           qtdColunas(_qtdColunas),
           qtdLinhas(_qtdLinhas)
 {
-
+    // cria a matriz 2d principal
     this->data = new T*[qtdLinhas];
     for (int i = 0; i < qtdLinhas; i++) {
         this->data[i] = new T[qtdColunas];
     }
 
+    // cria outra matriz 2d com o mesmo tamanho de linhas e colunas
+    this->distancias = new double*[qtdLinhas];
+    for (int i = 0; i < qtdLinhas; i++)
+        this->distancias[i] = new double[qtdColunas];
+
+    // le os valores da matriz principal
     this->lerEntrada();
-    this->gerarDistancias();
 }
 
 template<typename T>
-void MyMatrix<T>::gerarDistancias() {
-    // cria uma matriz 2d com o mesmo tamanho de linhas e colunas
-    // que a matriz principal
-    this->distancia = new double*[qtdLinhas];
-    for (int i = 0; i < qtdLinhas; i++)
-        this->distancia[i] = new double[qtdColunas];
-
+void MyMatrix<T>::gerarDistanciasTrivial() {
     // encontra o pixel preto mais próximo para cada pixel
     for (int i = 0; i < qtdLinhas; i++) {
         for (int j = 0; j < qtdColunas; j++) {
-            this->distancia[i][j] = CalculaMenorDistanciaPixelPreto::getMenorDistancia(
+            this->distancias[i][j] = Calculadora::getMenorDistanciaTrivial(
                                                             qtdLinhas,
                                                             qtdColunas,
                                                             i,
@@ -78,6 +82,11 @@ void MyMatrix<T>::gerarDistancias() {
                                                             this->data);
         }
     }
+}
+
+template<typename T>
+void MyMatrix<T>::gerarDistanciasTrivialMelhorado() {
+    //TODO
 }
 
 
@@ -105,10 +114,15 @@ template<typename T>
 void MyMatrix<T>::imprimirDistancias() const {
     for (int i = 0; i < this->getQtdLinhas(); i++) {
         for (int j = 0; j < this->getQtdColunas(); j++) {
-            cout << std::round(this->distancia[i][j]) << " ";
+            cout << std::round(this->distancias[i][j]) << " ";
         }
         cout << "\n";
     }
+}
+
+template<typename T>
+void MyMatrix<T>::imprimirResumo() const {
+    cout << Calculadora::getSomaDistancias(qtdLinhas, qtdColunas, distancias) << endl;
 }
 
 
@@ -132,8 +146,11 @@ template<typename T>
 MyMatrix<T>::~MyMatrix() {
     for (int i = 0; i < qtdLinhas; i++) {
         delete[] data[i];
+        delete[] distancias[i];
     }
     delete[] data;
+    delete[] distancias;
+
 }
 
 #endif //MYMATRIX_H

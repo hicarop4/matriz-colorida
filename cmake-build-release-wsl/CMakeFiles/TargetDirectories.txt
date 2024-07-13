@@ -1,0 +1,3 @@
+/mnt/c/TRABALHO/cmake-build-release-wsl/CMakeFiles/TRABALHO.dir
+/mnt/c/TRABALHO/cmake-build-release-wsl/CMakeFiles/edit_cache.dir
+/mnt/c/TRABALHO/cmake-build-release-wsl/CMakeFiles/rebuild_cache.dir

@@ -14,12 +14,14 @@ int main(int argv, const char **argc) {
     cin >> tipoDeArquivo;
     cin >> qtdColunas >> qtdLinhas >> limiteCor;
 
-    const MyMatrix<Pixel> *matrix = new MyMatrix<Pixel>(qtdColunas,
+    MyMatrix<Pixel> *matrix = new MyMatrix<Pixel>(qtdColunas,
                                                     qtdLinhas);
-    cout << tipoDeArquivo << "\n";
-    cout << qtdColunas << " " << qtdLinhas << "\n";
-    cout << 255 << "\n";
-    matrix->imprimirDistancias();
-    return 0;
+    // cout << tipoDeArquivo << "\n";
+    // cout << qtdColunas << " " << qtdLinhas << "\n";
+    // cout << 255 << "\n";
+    matrix->gerarDistanciasTrivial();
+    matrix->imprimirResumo();
 
+    delete matrix;
+    return 0;
 }

@@ -84,9 +84,6 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/TRABALHO/src/CalculaMenorDistanciaPixelPreto.h">
-			<Option target="TRABALHO"/>
-		</Unit>
 		<Unit filename="C:/TRABALHO/src/Calculadora.cpp">
 			<Option target="TRABALHO"/>
 		</Unit>

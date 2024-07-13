@@ -3,8 +3,10 @@
 
 CMakeFiles/TRABALHO.dir/src/Calculadora.cpp.obj
  C:/TRABALHO/src/Calculadora.cpp
+ C:/Program Files/JetBrains/CLion 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/algorithm
  C:/Program Files/JetBrains/CLion 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward/binders.h
  C:/Program Files/JetBrains/CLion 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bit
+ C:/Program Files/JetBrains/CLion 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/algorithmfwd.h
  C:/Program Files/JetBrains/CLion 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/alloc_traits.h
  C:/Program Files/JetBrains/CLion 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/allocator.h
  C:/Program Files/JetBrains/CLion 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/basic_ios.h
@@ -46,17 +48,21 @@ CMakeFiles/TRABALHO.dir/src/Calculadora.cpp.obj
  C:/Program Files/JetBrains/CLion 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/requires_hosted.h
  C:/Program Files/JetBrains/CLion 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/specfun.h
  C:/Program Files/JetBrains/CLion 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/std_abs.h
+ C:/Program Files/JetBrains/CLion 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_algo.h
  C:/Program Files/JetBrains/CLion 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_algobase.h
  C:/Program Files/JetBrains/CLion 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_construct.h
  C:/Program Files/JetBrains/CLion 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_function.h
+ C:/Program Files/JetBrains/CLion 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_heap.h
  C:/Program Files/JetBrains/CLion 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_iterator.h
  C:/Program Files/JetBrains/CLion 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_iterator_base_funcs.h
  C:/Program Files/JetBrains/CLion 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_iterator_base_types.h
  C:/Program Files/JetBrains/CLion 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_pair.h
+ C:/Program Files/JetBrains/CLion 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_tempbuf.h
  C:/Program Files/JetBrains/CLion 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/streambuf.tcc
  C:/Program Files/JetBrains/CLion 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/streambuf_iterator.h
  C:/Program Files/JetBrains/CLion 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/string_view.tcc
  C:/Program Files/JetBrains/CLion 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stringfwd.h
+ C:/Program Files/JetBrains/CLion 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/uniform_int_dist.h
  C:/Program Files/JetBrains/CLion 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/uses_allocator.h
  C:/Program Files/JetBrains/CLion 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/uses_allocator_args.h
  C:/Program Files/JetBrains/CLion 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/utility.h
@@ -86,6 +92,8 @@ CMakeFiles/TRABALHO.dir/src/Calculadora.cpp.obj
  C:/Program Files/JetBrains/CLion 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/limits
  C:/Program Files/JetBrains/CLion 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/new
  C:/Program Files/JetBrains/CLion 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ostream
+ C:/Program Files/JetBrains/CLion 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/pstl/execution_defs.h
+ C:/Program Files/JetBrains/CLion 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/pstl/glue_algorithm_defs.h
  C:/Program Files/JetBrains/CLion 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/pstl/pstl_config.h
  C:/Program Files/JetBrains/CLion 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/stdexcept
  C:/Program Files/JetBrains/CLion 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/stdlib.h
@@ -164,6 +172,7 @@ CMakeFiles/TRABALHO.dir/src/Calculadora.cpp.obj
  C:/Program Files/JetBrains/CLion 2024.1.4/bin/mingw/x86_64-w64-mingw32/include/wchar.h
  C:/Program Files/JetBrains/CLion 2024.1.4/bin/mingw/x86_64-w64-mingw32/include/wctype.h
  C:/TRABALHO/src/Calculadora.h
+ C:/TRABALHO/src/Pixel.h
 
 CMakeFiles/TRABALHO.dir/src/Pixel.cpp.obj
  C:/TRABALHO/src/Pixel.cpp
@@ -313,8 +322,10 @@ CMakeFiles/TRABALHO.dir/src/Pixel.cpp.obj
 
 CMakeFiles/TRABALHO.dir/src/main.cpp.obj
  C:/TRABALHO/src/main.cpp
+ C:/Program Files/JetBrains/CLion 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/algorithm
  C:/Program Files/JetBrains/CLion 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward/binders.h
  C:/Program Files/JetBrains/CLion 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bit
+ C:/Program Files/JetBrains/CLion 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/algorithmfwd.h
  C:/Program Files/JetBrains/CLion 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/alloc_traits.h
  C:/Program Files/JetBrains/CLion 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/allocator.h
  C:/Program Files/JetBrains/CLion 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/basic_ios.h
@@ -356,17 +367,21 @@ CMakeFiles/TRABALHO.dir/src/main.cpp.obj
  C:/Program Files/JetBrains/CLion 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/requires_hosted.h
  C:/Program Files/JetBrains/CLion 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/specfun.h
  C:/Program Files/JetBrains/CLion 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/std_abs.h
+ C:/Program Files/JetBrains/CLion 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_algo.h
  C:/Program Files/JetBrains/CLion 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_algobase.h
  C:/Program Files/JetBrains/CLion 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_construct.h
  C:/Program Files/JetBrains/CLion 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_function.h
+ C:/Program Files/JetBrains/CLion 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_heap.h
  C:/Program Files/JetBrains/CLion 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_iterator.h
  C:/Program Files/JetBrains/CLion 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_iterator_base_funcs.h
  C:/Program Files/JetBrains/CLion 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_iterator_base_types.h
  C:/Program Files/JetBrains/CLion 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_pair.h
+ C:/Program Files/JetBrains/CLion 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_tempbuf.h
  C:/Program Files/JetBrains/CLion 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/streambuf.tcc
  C:/Program Files/JetBrains/CLion 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/streambuf_iterator.h
  C:/Program Files/JetBrains/CLion 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/string_view.tcc
  C:/Program Files/JetBrains/CLion 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stringfwd.h
+ C:/Program Files/JetBrains/CLion 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/uniform_int_dist.h
  C:/Program Files/JetBrains/CLion 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/uses_allocator.h
  C:/Program Files/JetBrains/CLion 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/uses_allocator_args.h
  C:/Program Files/JetBrains/CLion 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/utility.h
@@ -395,6 +410,8 @@ CMakeFiles/TRABALHO.dir/src/main.cpp.obj
  C:/Program Files/JetBrains/CLion 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/limits
  C:/Program Files/JetBrains/CLion 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/new
  C:/Program Files/JetBrains/CLion 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ostream
+ C:/Program Files/JetBrains/CLion 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/pstl/execution_defs.h
+ C:/Program Files/JetBrains/CLion 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/pstl/glue_algorithm_defs.h
  C:/Program Files/JetBrains/CLion 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/pstl/pstl_config.h
  C:/Program Files/JetBrains/CLion 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/stdexcept
  C:/Program Files/JetBrains/CLion 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/stdlib.h
@@ -471,7 +488,6 @@ CMakeFiles/TRABALHO.dir/src/main.cpp.obj
  C:/Program Files/JetBrains/CLion 2024.1.4/bin/mingw/x86_64-w64-mingw32/include/vadefs.h
  C:/Program Files/JetBrains/CLion 2024.1.4/bin/mingw/x86_64-w64-mingw32/include/wchar.h
  C:/Program Files/JetBrains/CLion 2024.1.4/bin/mingw/x86_64-w64-mingw32/include/wctype.h
- C:/TRABALHO/src/CalculaMenorDistanciaPixelPreto.h
  C:/TRABALHO/src/Calculadora.h
  C:/TRABALHO/src/MyMatrix.h
  C:/TRABALHO/src/Pixel.h

@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.28)
+cmake_minimum_required(VERSION 3.22.1)
 project(TRABALHO)
 
 set(CMAKE_CXX_STANDARD 17)
@@ -10,4 +10,4 @@ add_executable(TRABALHO src/main.cpp
         src/Calculadora.cpp
         src/Calculadora.h
         src/Teste.h
-        src/CalculaMenorDistanciaPixelPreto.h)
+)

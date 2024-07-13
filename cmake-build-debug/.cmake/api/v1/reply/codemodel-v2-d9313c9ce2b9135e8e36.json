@@ -9,7 +9,7 @@
 					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
 					"minimumCMakeVersion" : 
 					{
-						"string" : "3.28"
+						"string" : "3.22.1"
 					},
 					"projectIndex" : 0,
 					"source" : ".",
@@ -39,7 +39,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "TRABALHO::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-TRABALHO-Debug-be0f9cbab6e6f0d46c71.json",
+					"jsonFile" : "target-TRABALHO-Debug-07c6b2f1e083e7e4539d.json",
 					"name" : "TRABALHO",
 					"projectIndex" : 0
 				}

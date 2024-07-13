@@ -5,85 +5,118 @@
 #ifndef MYMATRIX_H
 #define MYMATRIX_H
 
-#include "Pixel.h"
+#include "Calculadora.h"
+#include "CalculaMenorDistanciaPixelPreto.h"
 
 using namespace std;
 
 template<typename T>
 class MyMatrix {
 public:
-    MyMatrix(const string& _tipoDeArquivo, int _qtdColunas, int _qtdLinhas, int _limiteCor);
+    const T ** getData() const;
+
+    // construtores e destrutores
+    MyMatrix(int _qtdColunas, int _qtdLinhas);
     ~MyMatrix();
 
-    const Pixel ** getData() const;
-    const string& getTipoDeArquivo() const;
+    // métodos de acesso
+    T& get(long long linha, long long coluna){return data[linha][coluna];}
+    const T& get(long long linha, long long coluna) const {return data[linha][coluna];} //read-only
+
+    void gerarDistancias();
+    void imprimirDistancias() const;
+
     int getQtdColunas() const;
     int getQtdLinhas() const;
-    int getLimiteCor() const;
     void imprimir() const;
     void lerEntrada() const;
 
 private:
-    // Matriz principal para ler os pixels da imagem
-    Pixel **data;
+    // guarda os dados da matriz principal
+    T **data;
+    // guarda as distancias entre cada célula da matriz principal "data"
+    double **distancia;
 
-    // (tipo do arquivo PPM: P3, P6, etc...
-    const string& tipoDeArquivo;
-    int qtdColunas{};
-    int qtdLinhas{};
-    int limiteCor;
+    int qtdColunas;
+    int qtdLinhas;
 
 };
 
 
 template<typename T>
-MyMatrix<T>::MyMatrix(const string& _tipoDeArquivo, int _qtdColunas, int _qtdLinhas, int _limiteCor)
+MyMatrix<T>::MyMatrix(int _qtdColunas, int _qtdLinhas)
     :
-          tipoDeArquivo(_tipoDeArquivo),
           qtdColunas(_qtdColunas),
-          qtdLinhas(_qtdLinhas), limiteCor(_limiteCor)
+          qtdLinhas(_qtdLinhas)
 {
 
-    this->data = new Pixel*[qtdLinhas];
+    this->data = new T*[qtdLinhas];
     for (int i = 0; i < qtdLinhas; i++) {
-        this->data[i] = new Pixel[qtdColunas];
+        this->data[i] = new T[qtdColunas];
+    }
+
+    this->lerEntrada();
+    this->gerarDistancias();
+}
+
+template<typename T>
+void MyMatrix<T>::gerarDistancias() {
+    // cria uma matriz 2d com o mesmo tamanho de linhas e colunas
+    // que a matriz principal
+    this->distancia = new double*[qtdLinhas];
+    for (int i = 0; i < qtdLinhas; i++)
+        this->distancia[i] = new double[qtdColunas];
+
+    // encontra o pixel preto mais próximo para cada pixel
+    for (int i = 0; i < qtdLinhas; i++) {
+        for (int j = 0; j < qtdColunas; j++) {
+            this->distancia[i][j] = CalculaMenorDistanciaPixelPreto::getMenorDistancia(
+                                                            qtdLinhas,
+                                                            qtdColunas,
+                                                            i,
+                                                            j,
+                                                            this->data);
+        }
     }
 }
+
 
 template<typename T>
 void MyMatrix<T>::lerEntrada() const {
     for (int i = 0; i < qtdLinhas; i++) {
         for (int j = 0; j < qtdColunas; j++) {
             // Le o valor de cada pixel (cada pixel possui 3 cores, indo de 0 até 255)
-            this->data[i][j].ler();
+            std::cin >> this->data[i][j];
         }
     }
 }
 
 template<typename T>
 void MyMatrix<T>::imprimir() const {
-    cout << this->getTipoDeArquivo() << "\n";
-    cout << this->getQtdColunas() << " ";
-    cout << this->getQtdLinhas() << "\n";
-    cout << this->getLimiteCor() << "\n";
-
     for (int i = 0; i < this->getQtdLinhas(); i++) {
         for (int j = 0; j < this->getQtdColunas(); j++) {
-            this->data[i][j].imprimir();
+            cout << this->data[i][j] << " ";
         }
         cout << "\n";
     }
 }
 
 template<typename T>
-const Pixel ** MyMatrix<T>::getData() const {
+void MyMatrix<T>::imprimirDistancias() const {
+    for (int i = 0; i < this->getQtdLinhas(); i++) {
+        for (int j = 0; j < this->getQtdColunas(); j++) {
+            cout << std::round(this->distancia[i][j]) << " ";
+        }
+        cout << "\n";
+    }
+}
+
+
+template<typename T>
+const T ** MyMatrix<T>::getData() const {
     return this->data;
 }
 
-template<typename T>
-const string& MyMatrix<T>::getTipoDeArquivo() const{
-    return this->tipoDeArquivo;
-}
 
 template<typename T>
 int MyMatrix<T>::getQtdColunas() const {
@@ -96,18 +129,11 @@ int MyMatrix<T>::getQtdLinhas() const {
 }
 
 template<typename T>
-int MyMatrix<T>::getLimiteCor() const {
-    return this->limiteCor;
-}
-
-template<typename T>
 MyMatrix<T>::~MyMatrix() {
     for (int i = 0; i < qtdLinhas; i++) {
         delete[] data[i];
     }
     delete[] data;
 }
-
-
 
 #endif //MYMATRIX_H

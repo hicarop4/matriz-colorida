@@ -3,7 +3,6 @@
 //
 
 #include "Pixel.h"
-#include <iostream>
 
 Pixel::Pixel() {
     for (int i = 0; i < 3; i++) {
@@ -24,13 +23,20 @@ void Pixel::ler() {
 }
 
 void Pixel::imprimir() {
-    for (int i = 0; i < 3; i++) {
-        std::cout << cores[i] << " ";
-    }
+    std::cout << (*this);
 }
 
-Pixel::~Pixel() {
-    delete[] cores;
+bool Pixel::ehPreto() {
+    return !(this->cores[0] && this->cores[1] && this->cores[2]);
 }
 
 
+std::ostream &operator<<(std::ostream &out, const Pixel &pixel) {
+    out << pixel.cores[0] << " " << pixel.cores[1] << " " << pixel.cores[2];
+    return out;
+}
+
+std::istream &operator>>(std::istream &in, Pixel &pixel) {
+    in >> pixel.cores[0] >> pixel.cores[1] >> pixel.cores[2];
+    return in;
+}

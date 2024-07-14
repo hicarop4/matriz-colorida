@@ -19,7 +19,7 @@ public:
     void imprimir();
     void ler();
 
-    bool ehPreto();
+    bool ehPreto() const;
 };
 
 

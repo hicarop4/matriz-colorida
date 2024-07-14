@@ -93,6 +93,9 @@
 		<Unit filename="C:/TRABALHO/src/MyMatrix.h">
 			<Option target="TRABALHO"/>
 		</Unit>
+		<Unit filename="C:/TRABALHO/src/MyVec.h">
+			<Option target="TRABALHO"/>
+		</Unit>
 		<Unit filename="C:/TRABALHO/src/Pixel.cpp">
 			<Option target="TRABALHO"/>
 		</Unit>

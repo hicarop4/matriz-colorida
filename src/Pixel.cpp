@@ -26,7 +26,7 @@ void Pixel::imprimir() {
     std::cout << (*this);
 }
 
-bool Pixel::ehPreto() {
+bool Pixel::ehPreto() const {
     return !(this->cores[0] && this->cores[1] && this->cores[2]);
 }
 

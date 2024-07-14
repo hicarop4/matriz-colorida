@@ -7,27 +7,23 @@
 
 #include <cmath>
 
-#include "Calculadora.h"
-// #include "CalculaMenorDistanciaPixelPreto.h"
-
 using namespace std;
 
 template<typename T>
 class MyMatrix {
 public:
-    const T ** getData() const;
+    T ** getData() const;
+    double ** getDistancias() const;
 
     // construtores e destrutores
     MyMatrix(int _qtdColunas, int _qtdLinhas);
     ~MyMatrix();
 
     // métodos de acesso
-    T& get(long long linha, long long coluna){return data[linha][coluna];}
-    const T& get(long long linha, long long coluna) const {return data[linha][coluna];} //read-only
+    T& at(long long linha, long long coluna);
+    const T& at(long long linha, long long coluna) const; //read-only
 
     void lerEntrada() const;
-    void gerarDistanciasTrivial();
-    void gerarDistanciasTrivialMelhorado();
 
     void imprimir() const;
     void imprimirDistancias() const;
@@ -55,40 +51,19 @@ MyMatrix<T>::MyMatrix(int _qtdColunas, int _qtdLinhas)
           qtdLinhas(_qtdLinhas)
 {
     // cria a matriz 2d principal
-    this->data = new T*[qtdLinhas];
-    for (int i = 0; i < qtdLinhas; i++) {
-        this->data[i] = new T[qtdColunas];
+    this->data = new T*[_qtdLinhas];
+    for (int i = 0; i < _qtdLinhas; i++) {
+        this->data[i] = new T[_qtdColunas];
     }
 
     // cria outra matriz 2d com o mesmo tamanho de linhas e colunas
-    this->distancias = new double*[qtdLinhas];
-    for (int i = 0; i < qtdLinhas; i++)
-        this->distancias[i] = new double[qtdColunas];
+    this->distancias = new double*[_qtdLinhas];
+    for (int i = 0; i < _qtdLinhas; i++)
+        this->distancias[i] = new double[_qtdColunas];
 
     // le os valores da matriz principal
     this->lerEntrada();
 }
-
-template<typename T>
-void MyMatrix<T>::gerarDistanciasTrivial() {
-    // encontra o pixel preto mais próximo para cada pixel
-    for (int i = 0; i < qtdLinhas; i++) {
-        for (int j = 0; j < qtdColunas; j++) {
-            this->distancias[i][j] = Calculadora::getMenorDistanciaTrivial(
-                                                            qtdLinhas,
-                                                            qtdColunas,
-                                                            i,
-                                                            j,
-                                                            this->data);
-        }
-    }
-}
-
-template<typename T>
-void MyMatrix<T>::gerarDistanciasTrivialMelhorado() {
-    //TODO
-}
-
 
 template<typename T>
 void MyMatrix<T>::lerEntrada() const {
@@ -122,13 +97,25 @@ void MyMatrix<T>::imprimirDistancias() const {
 
 template<typename T>
 void MyMatrix<T>::imprimirResumo() const {
-    cout << Calculadora::getSomaDistancias(qtdLinhas, qtdColunas, distancias) << endl;
+
+    unsigned long long soma = 0;
+    for (int i = 0; i < qtdLinhas; i++) {
+        for (int j = 0; j < qtdColunas; j++) {
+            soma += std::round(distancias[i][j]);
+        }
+    }
+    cout << soma << endl;
 }
 
 
 template<typename T>
-const T ** MyMatrix<T>::getData() const {
+T ** MyMatrix<T>::getData() const {
     return this->data;
+}
+
+template<typename T>
+double ** MyMatrix<T>::getDistancias() const {
+    return this->distancias;
 }
 
 
@@ -151,6 +138,22 @@ MyMatrix<T>::~MyMatrix() {
     delete[] data;
     delete[] distancias;
 
+}
+
+template<typename T>
+T & MyMatrix<T>::at(long long linha, long long coluna) {
+    if (linha < 0 || linha >= qtdLinhas || coluna < 0 || coluna >= qtdColunas) {
+        throw std::out_of_range("Index out of bounds");
+    }
+    return data[linha][coluna];
+}
+
+template<typename T>
+const T & MyMatrix<T>::at(long long linha, long long coluna) const {
+    if (linha < 0 || linha >= qtdLinhas || coluna < 0 || coluna >= qtdColunas) {
+        throw std::out_of_range("Index out of bounds");
+    }
+    return data[linha][coluna];
 }
 
 #endif //MYMATRIX_H

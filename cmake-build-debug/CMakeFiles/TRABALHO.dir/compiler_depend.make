@@ -171,6 +171,8 @@ CMakeFiles/TRABALHO.dir/src/Calculadora.cpp.obj: C:/TRABALHO/src/Calculadora.cpp
   C:/Program\ Files/JetBrains/CLion\ 2024.1.4/bin/mingw/x86_64-w64-mingw32/include/wchar.h \
   C:/Program\ Files/JetBrains/CLion\ 2024.1.4/bin/mingw/x86_64-w64-mingw32/include/wctype.h \
   C:/TRABALHO/src/Calculadora.h \
+  C:/TRABALHO/src/MyMatrix.h \
+  C:/TRABALHO/src/MyVec.h \
   C:/TRABALHO/src/Pixel.h
 
 CMakeFiles/TRABALHO.dir/src/Pixel.cpp.obj: C:/TRABALHO/src/Pixel.cpp \
@@ -382,6 +384,7 @@ CMakeFiles/TRABALHO.dir/src/main.cpp.obj: C:/TRABALHO/src/main.cpp \
   C:/Program\ Files/JetBrains/CLion\ 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/uses_allocator.h \
   C:/Program\ Files/JetBrains/CLion\ 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/uses_allocator_args.h \
   C:/Program\ Files/JetBrains/CLion\ 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/utility.h \
+  C:/Program\ Files/JetBrains/CLion\ 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cassert \
   C:/Program\ Files/JetBrains/CLion\ 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cctype \
   C:/Program\ Files/JetBrains/CLion\ 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cerrno \
   C:/Program\ Files/JetBrains/CLion\ 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/clocale \
@@ -452,6 +455,7 @@ CMakeFiles/TRABALHO.dir/src/main.cpp.obj: C:/TRABALHO/src/main.cpp \
   C:/Program\ Files/JetBrains/CLion\ 2024.1.4/bin/mingw/x86_64-w64-mingw32/include/_mingw_secapi.h \
   C:/Program\ Files/JetBrains/CLion\ 2024.1.4/bin/mingw/x86_64-w64-mingw32/include/_mingw_stat64.h \
   C:/Program\ Files/JetBrains/CLion\ 2024.1.4/bin/mingw/x86_64-w64-mingw32/include/_timeval.h \
+  C:/Program\ Files/JetBrains/CLion\ 2024.1.4/bin/mingw/x86_64-w64-mingw32/include/assert.h \
   C:/Program\ Files/JetBrains/CLion\ 2024.1.4/bin/mingw/x86_64-w64-mingw32/include/corecrt.h \
   C:/Program\ Files/JetBrains/CLion\ 2024.1.4/bin/mingw/x86_64-w64-mingw32/include/corecrt_startup.h \
   C:/Program\ Files/JetBrains/CLion\ 2024.1.4/bin/mingw/x86_64-w64-mingw32/include/corecrt_stdio_config.h \
@@ -487,6 +491,7 @@ CMakeFiles/TRABALHO.dir/src/main.cpp.obj: C:/TRABALHO/src/main.cpp \
   C:/Program\ Files/JetBrains/CLion\ 2024.1.4/bin/mingw/x86_64-w64-mingw32/include/wctype.h \
   C:/TRABALHO/src/Calculadora.h \
   C:/TRABALHO/src/MyMatrix.h \
+  C:/TRABALHO/src/MyVec.h \
   C:/TRABALHO/src/Pixel.h \
   C:/TRABALHO/src/Teste.h
 
@@ -831,12 +836,14 @@ C:/Program\ Files/JetBrains/CLion\ 2024.1.4/bin/mingw/x86_64-w64-mingw32/include
 
 C:/Program\ Files/JetBrains/CLion\ 2024.1.4/bin/mingw/x86_64-w64-mingw32/include/vadefs.h:
 
+C:/TRABALHO/src/MyMatrix.h:
+
+C:/TRABALHO/src/MyVec.h:
+
 C:/TRABALHO/src/Pixel.h:
 
 C:/TRABALHO/src/Pixel.cpp:
 
 C:/TRABALHO/src/main.cpp:
-
-C:/TRABALHO/src/MyMatrix.h:
 
 C:/TRABALHO/src/Teste.h:

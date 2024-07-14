@@ -16,10 +16,17 @@ int main(int argv, const char **argc) {
 
     MyMatrix<Pixel> *matrix = new MyMatrix<Pixel>(qtdColunas,
                                                     qtdLinhas);
+    // int i = 0;
+    // for (i = 0; i < 100; i++) {
+    //     Calculadora::gerarDistanciasTrivial(matrix);
+    // }
+    // for (i = 0; i < 100; i++) {
+    //     Calculadora::gerarDistanciasTrivialMelhorado(matrix);
+    // }
     // cout << tipoDeArquivo << "\n";
     // cout << qtdColunas << " " << qtdLinhas << "\n";
     // cout << 255 << "\n";
-    matrix->gerarDistanciasTrivial();
+    Calculadora::gerarDistanciasTrivial(matrix);
     matrix->imprimirResumo();
 
     delete matrix;

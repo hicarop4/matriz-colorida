@@ -1,4 +1,6 @@
 #include <iostream>
+
+#include "Impressora.h"
 #include "Teste.h"
 #include "MyMatrix.h"
 #include "Pixel.h"
@@ -16,19 +18,14 @@ int main(int argv, const char **argc) {
 
     MyMatrix<Pixel> *matrix = new MyMatrix<Pixel>(qtdColunas,
                                                     qtdLinhas);
-    // int i = 0;
-    // for (i = 0; i < 100; i++) {
-    //     Calculadora::gerarDistanciasTrivial(matrix);
-    // }
-    // for (i = 0; i < 100; i++) {
-    //     Calculadora::gerarDistanciasTrivialMelhorado(matrix);
-    // }
+    matrix->lerEntrada();
+
     // cout << tipoDeArquivo << "\n";
     // cout << qtdColunas << " " << qtdLinhas << "\n";
     // cout << 255 << "\n";
-    Calculadora::gerarDistanciasTrivial(matrix);
-    matrix->imprimirResumo();
-
+    auto distancias = Calculadora::gerarDistanciasTrivialMelhorado(matrix);
+    Impressora::imprimirResumo(distancias);
     delete matrix;
+    delete distancias;
     return 0;
 }

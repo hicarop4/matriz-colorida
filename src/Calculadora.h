@@ -4,8 +4,8 @@
 
 #ifndef CALCULADORA_H
 #define CALCULADORA_H
+
 #include <algorithm>
-#include <limits>
 
 #include "MyVec.h"
 #include "Pixel.h"
@@ -24,8 +24,8 @@ public:
     static double getMenorDistanciaTrivial(int linha, int coluna, const MyMatrix<Pixel> *matrix);
     static double getMenorDistanciaTrivialMelhorado(int linha, int coluna, const MyVec<std::pair<int, int>> &coords);
 
-    static void gerarDistanciasTrivial(const MyMatrix<Pixel> *matrix);
-    static void gerarDistanciasTrivialMelhorado(const MyMatrix<Pixel> *matrix);
+    static MyMatrix<double> *gerarDistanciasTrivial(const MyMatrix<Pixel> *matrix);
+    static MyMatrix<double> *gerarDistanciasTrivialMelhorado(const MyMatrix<Pixel> *matrix);
 
     static void testarCalculadora();
 };

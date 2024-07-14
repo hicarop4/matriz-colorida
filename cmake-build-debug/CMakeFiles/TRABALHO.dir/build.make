@@ -110,11 +110,41 @@ CMakeFiles/TRABALHO.dir/src/Calculadora.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/TRABALHO.dir/src/Calculadora.cpp.s"
 	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\TRABALHO\src\Calculadora.cpp -o CMakeFiles\TRABALHO.dir\src\Calculadora.cpp.s
 
+CMakeFiles/TRABALHO.dir/src/GeradorImagem.cpp.obj: CMakeFiles/TRABALHO.dir/flags.make
+CMakeFiles/TRABALHO.dir/src/GeradorImagem.cpp.obj: C:/TRABALHO/src/GeradorImagem.cpp
+CMakeFiles/TRABALHO.dir/src/GeradorImagem.cpp.obj: CMakeFiles/TRABALHO.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\TRABALHO\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/TRABALHO.dir/src/GeradorImagem.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/TRABALHO.dir/src/GeradorImagem.cpp.obj -MF CMakeFiles\TRABALHO.dir\src\GeradorImagem.cpp.obj.d -o CMakeFiles\TRABALHO.dir\src\GeradorImagem.cpp.obj -c C:\TRABALHO\src\GeradorImagem.cpp
+
+CMakeFiles/TRABALHO.dir/src/GeradorImagem.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/TRABALHO.dir/src/GeradorImagem.cpp.i"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\TRABALHO\src\GeradorImagem.cpp > CMakeFiles\TRABALHO.dir\src\GeradorImagem.cpp.i
+
+CMakeFiles/TRABALHO.dir/src/GeradorImagem.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/TRABALHO.dir/src/GeradorImagem.cpp.s"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\TRABALHO\src\GeradorImagem.cpp -o CMakeFiles\TRABALHO.dir\src\GeradorImagem.cpp.s
+
+CMakeFiles/TRABALHO.dir/src/Impressora.cpp.obj: CMakeFiles/TRABALHO.dir/flags.make
+CMakeFiles/TRABALHO.dir/src/Impressora.cpp.obj: C:/TRABALHO/src/Impressora.cpp
+CMakeFiles/TRABALHO.dir/src/Impressora.cpp.obj: CMakeFiles/TRABALHO.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\TRABALHO\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/TRABALHO.dir/src/Impressora.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/TRABALHO.dir/src/Impressora.cpp.obj -MF CMakeFiles\TRABALHO.dir\src\Impressora.cpp.obj.d -o CMakeFiles\TRABALHO.dir\src\Impressora.cpp.obj -c C:\TRABALHO\src\Impressora.cpp
+
+CMakeFiles/TRABALHO.dir/src/Impressora.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/TRABALHO.dir/src/Impressora.cpp.i"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\TRABALHO\src\Impressora.cpp > CMakeFiles\TRABALHO.dir\src\Impressora.cpp.i
+
+CMakeFiles/TRABALHO.dir/src/Impressora.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/TRABALHO.dir/src/Impressora.cpp.s"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\TRABALHO\src\Impressora.cpp -o CMakeFiles\TRABALHO.dir\src\Impressora.cpp.s
+
 # Object files for target TRABALHO
 TRABALHO_OBJECTS = \
 "CMakeFiles/TRABALHO.dir/src/main.cpp.obj" \
 "CMakeFiles/TRABALHO.dir/src/Pixel.cpp.obj" \
-"CMakeFiles/TRABALHO.dir/src/Calculadora.cpp.obj"
+"CMakeFiles/TRABALHO.dir/src/Calculadora.cpp.obj" \
+"CMakeFiles/TRABALHO.dir/src/GeradorImagem.cpp.obj" \
+"CMakeFiles/TRABALHO.dir/src/Impressora.cpp.obj"
 
 # External object files for target TRABALHO
 TRABALHO_EXTERNAL_OBJECTS =
@@ -122,11 +152,13 @@ TRABALHO_EXTERNAL_OBJECTS =
 TRABALHO.exe: CMakeFiles/TRABALHO.dir/src/main.cpp.obj
 TRABALHO.exe: CMakeFiles/TRABALHO.dir/src/Pixel.cpp.obj
 TRABALHO.exe: CMakeFiles/TRABALHO.dir/src/Calculadora.cpp.obj
+TRABALHO.exe: CMakeFiles/TRABALHO.dir/src/GeradorImagem.cpp.obj
+TRABALHO.exe: CMakeFiles/TRABALHO.dir/src/Impressora.cpp.obj
 TRABALHO.exe: CMakeFiles/TRABALHO.dir/build.make
 TRABALHO.exe: CMakeFiles/TRABALHO.dir/linkLibs.rsp
 TRABALHO.exe: CMakeFiles/TRABALHO.dir/objects1.rsp
 TRABALHO.exe: CMakeFiles/TRABALHO.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\TRABALHO\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable TRABALHO.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\TRABALHO\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable TRABALHO.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\TRABALHO.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

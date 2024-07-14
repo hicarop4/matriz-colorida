@@ -6,6 +6,9 @@
 #define MYMATRIX_H
 
 #include <cmath>
+#include <iostream>   // Para std::cin, std::cout, std::endl
+#include <cmath>      // Para funções matemáticas como std::round
+#include <stdexcept>  // Para std::out_of_range
 
 using namespace std;
 
@@ -13,7 +16,6 @@ template<typename T>
 class MyMatrix {
 public:
     T ** getData() const;
-    double ** getDistancias() const;
 
     // construtores e destrutores
     MyMatrix(int _qtdColunas, int _qtdLinhas);
@@ -35,8 +37,6 @@ public:
 private:
     // guarda os dados da matriz principal
     T **data;
-    // guarda as distancias entre cada célula da matriz principal "data"
-    double **distancias;
 
     int qtdColunas;
     int qtdLinhas;
@@ -55,14 +55,6 @@ MyMatrix<T>::MyMatrix(int _qtdColunas, int _qtdLinhas)
     for (int i = 0; i < _qtdLinhas; i++) {
         this->data[i] = new T[_qtdColunas];
     }
-
-    // cria outra matriz 2d com o mesmo tamanho de linhas e colunas
-    this->distancias = new double*[_qtdLinhas];
-    for (int i = 0; i < _qtdLinhas; i++)
-        this->distancias[i] = new double[_qtdColunas];
-
-    // le os valores da matriz principal
-    this->lerEntrada();
 }
 
 template<typename T>
@@ -86,38 +78,9 @@ void MyMatrix<T>::imprimir() const {
 }
 
 template<typename T>
-void MyMatrix<T>::imprimirDistancias() const {
-    for (int i = 0; i < this->getQtdLinhas(); i++) {
-        for (int j = 0; j < this->getQtdColunas(); j++) {
-            cout << std::round(this->distancias[i][j]) << " ";
-        }
-        cout << "\n";
-    }
-}
-
-template<typename T>
-void MyMatrix<T>::imprimirResumo() const {
-
-    unsigned long long soma = 0;
-    for (int i = 0; i < qtdLinhas; i++) {
-        for (int j = 0; j < qtdColunas; j++) {
-            soma += std::round(distancias[i][j]);
-        }
-    }
-    cout << soma << endl;
-}
-
-
-template<typename T>
 T ** MyMatrix<T>::getData() const {
     return this->data;
 }
-
-template<typename T>
-double ** MyMatrix<T>::getDistancias() const {
-    return this->distancias;
-}
-
 
 template<typename T>
 int MyMatrix<T>::getQtdColunas() const {
@@ -133,10 +96,8 @@ template<typename T>
 MyMatrix<T>::~MyMatrix() {
     for (int i = 0; i < qtdLinhas; i++) {
         delete[] data[i];
-        delete[] distancias[i];
     }
     delete[] data;
-    delete[] distancias;
 
 }
 

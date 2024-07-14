@@ -53,26 +53,30 @@ double Calculadora::getMenorDistanciaTrivial(int linha, int coluna, const MyMatr
      return menorDistancia;
  }
 
-void Calculadora::gerarDistanciasTrivial(const MyMatrix<Pixel> *matrix) {
+MyMatrix<double> * Calculadora::gerarDistanciasTrivial(const MyMatrix<Pixel> *matrix) {
+    MyMatrix<double> *distancias = new MyMatrix<double>(matrix->getQtdColunas(), matrix->getQtdLinhas());
     // encontra o pixel preto mais próximo para cada pixel usando algoritmo mais intuitivo
     // e com complexidade O(n^4)
-    for (int i = 0; i < matrix->getQtdLinhas(); i++) {
-        for (int j = 0; j < matrix->getQtdColunas(); j++) {
-             matrix->getDistancias()[i][j] = getMenorDistanciaTrivial(i,j,matrix);
+    for (int i = 0; i < distancias->getQtdLinhas(); i++) {
+        for (int j = 0; j < distancias->getQtdColunas(); j++) {
+             distancias->at(i,j) = getMenorDistanciaTrivial(i,j,matrix);
         }
     }
+    return distancias;
 }
 
-void Calculadora::gerarDistanciasTrivialMelhorado(const MyMatrix<Pixel> *matrix) {
+MyMatrix<double> * Calculadora::gerarDistanciasTrivialMelhorado(const MyMatrix<Pixel> *matrix) {
     MyVec<std::pair<int, int>> coords;
     contarPontosPretos(matrix, coords);
+    MyMatrix<double> *distancias = new MyMatrix<double>(matrix->getQtdColunas(), matrix->getQtdLinhas());
     // encontra o pixel preto mais próximo para cada pixel usando algoritmo
     // com complexidade O(n^3)
     for (int i = 0; i < matrix->getQtdLinhas(); i++) {
         for (int j = 0; j < matrix->getQtdColunas(); j++) {
-            matrix->getDistancias()[i][j] = getMenorDistanciaTrivialMelhorado(i, j, coords);
+            distancias->at(i, j) = getMenorDistanciaTrivialMelhorado(i, j, coords);
         }
     }
+    return distancias;
 }
 
 void Calculadora::testarCalculadora() {

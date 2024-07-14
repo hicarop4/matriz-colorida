@@ -152,6 +152,54 @@ src/Calculadora.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\TRABALHO.dir\build.make CMakeFiles/TRABALHO.dir/src/Calculadora.cpp.s
 .PHONY : src/Calculadora.cpp.s
 
+src/GeradorImagem.obj: src/GeradorImagem.cpp.obj
+.PHONY : src/GeradorImagem.obj
+
+# target to build an object file
+src/GeradorImagem.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TRABALHO.dir\build.make CMakeFiles/TRABALHO.dir/src/GeradorImagem.cpp.obj
+.PHONY : src/GeradorImagem.cpp.obj
+
+src/GeradorImagem.i: src/GeradorImagem.cpp.i
+.PHONY : src/GeradorImagem.i
+
+# target to preprocess a source file
+src/GeradorImagem.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TRABALHO.dir\build.make CMakeFiles/TRABALHO.dir/src/GeradorImagem.cpp.i
+.PHONY : src/GeradorImagem.cpp.i
+
+src/GeradorImagem.s: src/GeradorImagem.cpp.s
+.PHONY : src/GeradorImagem.s
+
+# target to generate assembly for a file
+src/GeradorImagem.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TRABALHO.dir\build.make CMakeFiles/TRABALHO.dir/src/GeradorImagem.cpp.s
+.PHONY : src/GeradorImagem.cpp.s
+
+src/Impressora.obj: src/Impressora.cpp.obj
+.PHONY : src/Impressora.obj
+
+# target to build an object file
+src/Impressora.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TRABALHO.dir\build.make CMakeFiles/TRABALHO.dir/src/Impressora.cpp.obj
+.PHONY : src/Impressora.cpp.obj
+
+src/Impressora.i: src/Impressora.cpp.i
+.PHONY : src/Impressora.i
+
+# target to preprocess a source file
+src/Impressora.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TRABALHO.dir\build.make CMakeFiles/TRABALHO.dir/src/Impressora.cpp.i
+.PHONY : src/Impressora.cpp.i
+
+src/Impressora.s: src/Impressora.cpp.s
+.PHONY : src/Impressora.s
+
+# target to generate assembly for a file
+src/Impressora.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TRABALHO.dir\build.make CMakeFiles/TRABALHO.dir/src/Impressora.cpp.s
+.PHONY : src/Impressora.cpp.s
+
 src/Pixel.obj: src/Pixel.cpp.obj
 .PHONY : src/Pixel.obj
 
@@ -212,6 +260,12 @@ help:
 	@echo ... src/Calculadora.obj
 	@echo ... src/Calculadora.i
 	@echo ... src/Calculadora.s
+	@echo ... src/GeradorImagem.obj
+	@echo ... src/GeradorImagem.i
+	@echo ... src/GeradorImagem.s
+	@echo ... src/Impressora.obj
+	@echo ... src/Impressora.i
+	@echo ... src/Impressora.s
 	@echo ... src/Pixel.obj
 	@echo ... src/Pixel.i
 	@echo ... src/Pixel.s

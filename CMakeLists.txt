@@ -11,4 +11,8 @@ add_executable(TRABALHO src/main.cpp
         src/Calculadora.h
         src/Teste.h
         src/MyVec.h
+        src/GeradorImagem.cpp
+        src/GeradorImagem.h
+        src/Impressora.cpp
+        src/Impressora.h
 )

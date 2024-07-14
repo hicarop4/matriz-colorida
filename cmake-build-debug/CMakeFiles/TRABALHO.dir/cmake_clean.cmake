@@ -1,6 +1,10 @@
 file(REMOVE_RECURSE
   "CMakeFiles/TRABALHO.dir/src/Calculadora.cpp.obj"
   "CMakeFiles/TRABALHO.dir/src/Calculadora.cpp.obj.d"
+  "CMakeFiles/TRABALHO.dir/src/GeradorImagem.cpp.obj"
+  "CMakeFiles/TRABALHO.dir/src/GeradorImagem.cpp.obj.d"
+  "CMakeFiles/TRABALHO.dir/src/Impressora.cpp.obj"
+  "CMakeFiles/TRABALHO.dir/src/Impressora.cpp.obj.d"
   "CMakeFiles/TRABALHO.dir/src/Pixel.cpp.obj"
   "CMakeFiles/TRABALHO.dir/src/Pixel.cpp.obj.d"
   "CMakeFiles/TRABALHO.dir/src/main.cpp.obj"

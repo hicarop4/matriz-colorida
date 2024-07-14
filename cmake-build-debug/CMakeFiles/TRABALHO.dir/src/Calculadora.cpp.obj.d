@@ -54,7 +54,6 @@ CMakeFiles/TRABALHO.dir/src/Calculadora.cpp.obj: \
  C:/Program\ Files/JetBrains/CLion\ 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/std_abs.h \
  C:/Program\ Files/JetBrains/CLion\ 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/pstl/glue_algorithm_defs.h \
  C:/Program\ Files/JetBrains/CLion\ 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/pstl/execution_defs.h \
- C:/Program\ Files/JetBrains/CLion\ 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/limits \
  C:\TRABALHO\src\MyVec.h \
  C:/Program\ Files/JetBrains/CLion\ 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/iostream \
  C:/Program\ Files/JetBrains/CLion\ 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/requires_hosted.h \
@@ -158,6 +157,7 @@ CMakeFiles/TRABALHO.dir/src/Calculadora.cpp.obj: \
  C:/Program\ Files/JetBrains/CLion\ 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cmath \
  C:/Program\ Files/JetBrains/CLion\ 2024.1.4/bin/mingw/x86_64-w64-mingw32/include/math.h \
  C:/Program\ Files/JetBrains/CLion\ 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/specfun.h \
+ C:/Program\ Files/JetBrains/CLion\ 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/limits \
  C:/Program\ Files/JetBrains/CLion\ 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/tr1/gamma.tcc \
  C:/Program\ Files/JetBrains/CLion\ 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/tr1/special_function_util.h \
  C:/Program\ Files/JetBrains/CLion\ 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/tr1/bessel_function.tcc \

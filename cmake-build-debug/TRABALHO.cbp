@@ -90,6 +90,18 @@
 		<Unit filename="C:/TRABALHO/src/Calculadora.h">
 			<Option target="TRABALHO"/>
 		</Unit>
+		<Unit filename="C:/TRABALHO/src/GeradorImagem.cpp">
+			<Option target="TRABALHO"/>
+		</Unit>
+		<Unit filename="C:/TRABALHO/src/GeradorImagem.h">
+			<Option target="TRABALHO"/>
+		</Unit>
+		<Unit filename="C:/TRABALHO/src/Impressora.cpp">
+			<Option target="TRABALHO"/>
+		</Unit>
+		<Unit filename="C:/TRABALHO/src/Impressora.h">
+			<Option target="TRABALHO"/>
+		</Unit>
 		<Unit filename="C:/TRABALHO/src/MyMatrix.h">
 			<Option target="TRABALHO"/>
 		</Unit>

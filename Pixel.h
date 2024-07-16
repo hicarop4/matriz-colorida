@@ -13,6 +13,9 @@ private:
 public:
     Pixel();
     explicit Pixel(const int *_cores);
+
+    Pixel(int r, int g, int b);
+
     friend std::ostream& operator<<(std::ostream &out, const Pixel &pixel);
     friend std::istream& operator>>(std::istream &in, Pixel &pixel);
 

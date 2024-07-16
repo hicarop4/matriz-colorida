@@ -5,12 +5,15 @@
 #ifndef IMPRESSORA_H
 #define IMPRESSORA_H
 #include "MyMatrix.h"
+#include "Pixel.h"
 
 
 class Impressora {
 public:
     static void imprimirDistancias(MyMatrix<double> *distancias);
     static void imprimirResumo(MyMatrix<double> *distancias);
+    static void imprimirImagem(const string& tipoDeArquivo, MyMatrix<Pixel> *imagem);
+
 };
 
 

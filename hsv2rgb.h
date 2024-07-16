@@ -1,6 +1,11 @@
 //Converte HSV para RGB (é mais fácil mapear uma escala linear para HSV do que para RGB)
 //Assim, vamos maepar as distancias para o formato HSV e, a serguir, converter para RGB
 //Codigo de hsv2rgb baseado em : https://stackoverflow.com/a/36209005
+
+#include <math.h>
+#include "Pixel.h"
+
+
 typedef struct {
     double h;       // ∈ [0, 360]
     double s;       // ∈ [0, 1]
@@ -47,12 +52,12 @@ rgb hsv2rgb(hsv HSV)
 
 //Dado um valor real entre 0 e 1, mapeia esse valor para uma cor...
 //Ou seja, transforma uma escala linear em uma cor no formato r,g,b
-TipoDeRetorno geraCorDist(double distPercent) {
+Pixel geraCorDist(double distPercent) {
 	if(distPercent <= 0.00000001) {
-		return Cor(0,0,0);
+		return Pixel(0,0,0);
 	}
 	hsv corHSV;
-	corHSV.h = 360*distPercent; //A entrada da funcao hsv2rgb usa valores de h entre 0 e 360 
+	corHSV.h = 360*distPercent; //A entrada da funcao hsv2rgb usa valores de h entre 0 e 360
 	corHSV.s = 1;
 	corHSV.v = 1;
 	rgb c = hsv2rgb(corHSV);
@@ -62,5 +67,7 @@ TipoDeRetorno geraCorDist(double distPercent) {
     int rgbB = c.b*255;
 
     //rgbR,rgbG e rgbB sao os componentes RGB gerados. Adapte o resto do codigo para que ele retorne a cor utilizando o tipo que voce criou no seu trabalho...
-	return .... //adapte ...
+    int rgbArray[3] = {rgbR, rgbG, rgbB};
+    Pixel pixelDaImagem(rgbArray);
+    return pixelDaImagem; //adapte ...
 }

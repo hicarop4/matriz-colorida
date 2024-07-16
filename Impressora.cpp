@@ -2,7 +2,9 @@
 // Created by Hícaro on 14/07/2024.
 //
 
-#include "Impressora.h"
+#include "src/Impressora.h"
+
+#include <complex>
 
 void Impressora::imprimirDistancias(MyMatrix<double> *distancias) {
     for (int i = 0; i < distancias->getQtdLinhas(); i++) {
@@ -23,25 +25,9 @@ void Impressora::imprimirResumo(MyMatrix<double> *distancias) {
     cout << soma << "\n";
 }
 
-
-// template<typename T>
-// void MyMatrix<T>::imprimirDistancias() const {
-//     for (int i = 0; i < this->getQtdLinhas(); i++) {
-//         for (int j = 0; j < this->getQtdColunas(); j++) {
-//             cout << std::round(this->data[i][j]) << " ";
-//         }
-//         cout << "\n";
-//     }
-// }
-//
-// template<typename T>
-// void MyMatrix<T>::imprimirResumo() const {
-//
-//     unsigned long long soma = 0;
-//     for (int i = 0; i < qtdLinhas; i++) {
-//         for (int j = 0; j < qtdColunas; j++) {
-//             soma += std::round(data[i][j]);
-//         }
-//     }
-//     cout << soma << endl;
-// }
+void Impressora::imprimirImagem(const string& tipoDeArquivo, MyMatrix<Pixel> *imagem) {
+    cout << tipoDeArquivo << "\n";
+    cout << imagem->getQtdColunas() << " " << imagem->getQtdLinhas() << "\n";
+    cout << 255 << "\n";
+    imagem->imprimir();
+}

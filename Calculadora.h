@@ -7,7 +7,7 @@
 
 #include <algorithm>
 
-#include "MyVec.h"
+#include "src/MyVec.h"
 #include "Pixel.h"
 #include "MyMatrix.h"
 

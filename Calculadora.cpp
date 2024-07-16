@@ -2,7 +2,7 @@
 // Created by Hícaro on 13/07/2024.
 //
 
-#include "Calculadora.h"
+#include "src/Calculadora.h"
 
 #include <cassert>
 #include <cmath>

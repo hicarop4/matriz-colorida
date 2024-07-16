@@ -28,8 +28,6 @@ public:
     void lerEntrada() const;
 
     void imprimir() const;
-    void imprimirDistancias() const;
-    void imprimirResumo() const;
 
     int getQtdColunas() const;
     int getQtdLinhas() const;
@@ -61,7 +59,6 @@ template<typename T>
 void MyMatrix<T>::lerEntrada() const {
     for (int i = 0; i < qtdLinhas; i++) {
         for (int j = 0; j < qtdColunas; j++) {
-            // Le o valor de cada pixel (cada pixel possui 3 cores, indo de 0 até 255)
             std::cin >> this->data[i][j];
         }
     }
@@ -69,8 +66,8 @@ void MyMatrix<T>::lerEntrada() const {
 
 template<typename T>
 void MyMatrix<T>::imprimir() const {
-    for (int i = 0; i < this->getQtdLinhas(); i++) {
-        for (int j = 0; j < this->getQtdColunas(); j++) {
+    for (int i = 0; i < this->qtdLinhas; i++) {
+        for (int j = 0; j < this->qtdColunas; j++) {
             cout << this->data[i][j] << " ";
         }
         cout << "\n";

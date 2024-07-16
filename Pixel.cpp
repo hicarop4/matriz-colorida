@@ -2,7 +2,7 @@
 // Created by Eu on 10/07/2024.
 //
 
-#include "Pixel.h"
+#include "src/Pixel.h"
 
 Pixel::Pixel() {
     for (int i = 0; i < 3; i++) {
@@ -14,6 +14,12 @@ Pixel::Pixel(const int *_cores) {
     for (int i = 0; i < 3; i++) {
         cores[i] = _cores[i];
     }
+}
+
+Pixel::Pixel(const int r, const int g, const int b) {
+    cores[0] = r;
+    cores[1] = g;
+    cores[2] = b;
 }
 
 void Pixel::ler() {

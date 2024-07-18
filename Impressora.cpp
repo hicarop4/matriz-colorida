@@ -2,8 +2,7 @@
 // Created by Hícaro on 14/07/2024.
 //
 
-#include "src/Impressora.h"
-
+#include "Impressora.h"
 #include <complex>
 
 void Impressora::imprimirDistancias(MyMatrix<double> *distancias) {

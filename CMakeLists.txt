@@ -3,16 +3,16 @@ project(TRABALHO)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(TRABALHO src/main.cpp
-        src/MyMatrix.h
-        src/Pixel.cpp
-        src/Pixel.h
-        src/Calculadora.cpp
-        src/Calculadora.h
-        src/Teste.h
-        src/MyVec.h
-        src/GeradorImagem.cpp
-        src/GeradorImagem.h
-        src/Impressora.cpp
-        src/Impressora.h
+add_executable(TRABALHO main.cpp
+        MyMatrix.h
+        Pixel.cpp
+        Pixel.h
+        Calculadora.cpp
+        Calculadora.h
+        Teste.h
+        MyVec.h
+        GeradorImagem.cpp
+        GeradorImagem.h
+        Impressora.cpp
+        Impressora.h
 )

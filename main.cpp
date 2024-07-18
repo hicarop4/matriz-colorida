@@ -1,8 +1,8 @@
 #include <iostream>
 #include <cstring>
 
-#include "src/MyMatrix.h"
-#include "src/Pixel.h"
+#include "MyMatrix.h"
+#include "Pixel.h"
 #include "Calculadora.h"
 #include "GeradorImagem.h"
 #include "Impressora.h"
@@ -53,22 +53,11 @@ int main(int argc, const char **argv) {
     } else {
         MyMatrix<Pixel> *imagem = GeradorImagem::gerarImagem(distancias);
         Impressora::imprimirImagem(tipoDeArquivo, imagem);
+        delete imagem;
     }
 
-    // // calcula as distancias entre cada pixel dessa matriz
-    // MyMatrix<double> *distancias = Calculadora::gerarDistanciasTrivial(matrix);
-    // // gera a imagem final para o usuário
-    // MyMatrix<Pixel>* imagem = GeradorImagem::gerarImagem(distancias);
-    //
-    // // imprime informações sobre a imagem e sua matriz de cores
-    // cout << tipoDeArquivo << "\n";
-    // cout << qtdColunas << " " << qtdLinhas << "\n";
-    // cout << 255 << "\n";
-    // imagem->imprimir();
-
     // evitar vazamento de memoria!
-    // delete matrix;
-    // delete distancias;
-    // delete imagem;
+    delete matrix;
+    delete distancias;
     return 0;
 }

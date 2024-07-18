@@ -49,23 +49,35 @@ cmake_ninja_workdir = C$:/Users/Eu/Documents/TRABALHO/cmake-build-debug/
 
 build cmake_object_order_depends_target_TRABALHO: phony || CMakeFiles/TRABALHO.dir
 
-build CMakeFiles/TRABALHO.dir/src/main.cpp.obj: CXX_COMPILER__TRABALHO_unscanned_Debug C$:/Users/Eu/Documents/TRABALHO/src/main.cpp || cmake_object_order_depends_target_TRABALHO
-  DEP_FILE = CMakeFiles\TRABALHO.dir\src\main.cpp.obj.d
+build CMakeFiles/TRABALHO.dir/main.cpp.obj: CXX_COMPILER__TRABALHO_unscanned_Debug C$:/Users/Eu/Documents/TRABALHO/main.cpp || cmake_object_order_depends_target_TRABALHO
+  DEP_FILE = CMakeFiles\TRABALHO.dir\main.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\TRABALHO.dir
-  OBJECT_FILE_DIR = CMakeFiles\TRABALHO.dir\src
+  OBJECT_FILE_DIR = CMakeFiles\TRABALHO.dir
 
-build CMakeFiles/TRABALHO.dir/src/Input.cpp.obj: CXX_COMPILER__TRABALHO_unscanned_Debug C$:/Users/Eu/Documents/TRABALHO/src/Input.cpp || cmake_object_order_depends_target_TRABALHO
-  DEP_FILE = CMakeFiles\TRABALHO.dir\src\Input.cpp.obj.d
+build CMakeFiles/TRABALHO.dir/Pixel.cpp.obj: CXX_COMPILER__TRABALHO_unscanned_Debug C$:/Users/Eu/Documents/TRABALHO/Pixel.cpp || cmake_object_order_depends_target_TRABALHO
+  DEP_FILE = CMakeFiles\TRABALHO.dir\Pixel.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\TRABALHO.dir
-  OBJECT_FILE_DIR = CMakeFiles\TRABALHO.dir\src
+  OBJECT_FILE_DIR = CMakeFiles\TRABALHO.dir
 
-build CMakeFiles/TRABALHO.dir/src/Pixel.cpp.obj: CXX_COMPILER__TRABALHO_unscanned_Debug C$:/Users/Eu/Documents/TRABALHO/src/Pixel.cpp || cmake_object_order_depends_target_TRABALHO
-  DEP_FILE = CMakeFiles\TRABALHO.dir\src\Pixel.cpp.obj.d
+build CMakeFiles/TRABALHO.dir/Calculadora.cpp.obj: CXX_COMPILER__TRABALHO_unscanned_Debug C$:/Users/Eu/Documents/TRABALHO/Calculadora.cpp || cmake_object_order_depends_target_TRABALHO
+  DEP_FILE = CMakeFiles\TRABALHO.dir\Calculadora.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\TRABALHO.dir
-  OBJECT_FILE_DIR = CMakeFiles\TRABALHO.dir\src
+  OBJECT_FILE_DIR = CMakeFiles\TRABALHO.dir
+
+build CMakeFiles/TRABALHO.dir/GeradorImagem.cpp.obj: CXX_COMPILER__TRABALHO_unscanned_Debug C$:/Users/Eu/Documents/TRABALHO/GeradorImagem.cpp || cmake_object_order_depends_target_TRABALHO
+  DEP_FILE = CMakeFiles\TRABALHO.dir\GeradorImagem.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\TRABALHO.dir
+  OBJECT_FILE_DIR = CMakeFiles\TRABALHO.dir
+
+build CMakeFiles/TRABALHO.dir/Impressora.cpp.obj: CXX_COMPILER__TRABALHO_unscanned_Debug C$:/Users/Eu/Documents/TRABALHO/Impressora.cpp || cmake_object_order_depends_target_TRABALHO
+  DEP_FILE = CMakeFiles\TRABALHO.dir\Impressora.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\TRABALHO.dir
+  OBJECT_FILE_DIR = CMakeFiles\TRABALHO.dir
 
 
 # =============================================================================
@@ -75,7 +87,7 @@ build CMakeFiles/TRABALHO.dir/src/Pixel.cpp.obj: CXX_COMPILER__TRABALHO_unscanne
 #############################################
 # Link the executable TRABALHO.exe
 
-build TRABALHO.exe: CXX_EXECUTABLE_LINKER__TRABALHO_Debug CMakeFiles/TRABALHO.dir/src/main.cpp.obj CMakeFiles/TRABALHO.dir/src/Input.cpp.obj CMakeFiles/TRABALHO.dir/src/Pixel.cpp.obj
+build TRABALHO.exe: CXX_EXECUTABLE_LINKER__TRABALHO_Debug CMakeFiles/TRABALHO.dir/main.cpp.obj CMakeFiles/TRABALHO.dir/Pixel.cpp.obj CMakeFiles/TRABALHO.dir/Calculadora.cpp.obj CMakeFiles/TRABALHO.dir/GeradorImagem.cpp.obj CMakeFiles/TRABALHO.dir/Impressora.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\TRABALHO.dir

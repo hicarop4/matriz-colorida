@@ -2,7 +2,7 @@
 // Created by Eu on 10/07/2024.
 //
 
-#include "src/Pixel.h"
+#include "Pixel.h"
 
 Pixel::Pixel() {
     for (int i = 0; i < 3; i++) {

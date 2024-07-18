@@ -5,8 +5,8 @@
 #ifndef GERADORIMAGEM_H
 #define GERADORIMAGEM_H
 
-#include "src/MyMatrix.h"
-#include "src/Pixel.h"
+#include "MyMatrix.h"
+#include "Pixel.h"
 
 class GeradorImagem {
 public:

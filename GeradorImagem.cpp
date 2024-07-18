@@ -2,8 +2,8 @@
 // Created by Hícaro on 14/07/2024.
 //
 
-#include "src/GeradorImagem.h"
-#include "src/hsv2rgb.h"
+#include "GeradorImagem.h"
+#include "hsv2rgb.h"
 #include <limits>
 
 MyMatrix<Pixel>* GeradorImagem::gerarImagem(MyMatrix<double> *distancias) {

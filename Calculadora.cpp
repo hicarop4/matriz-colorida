@@ -8,6 +8,7 @@
 #include <cmath>
 #include <iostream>
 
+// calcula a distancia de um elemento para outro em determinada matriz
 double Calculadora::getDistancia(const int &linha1,
                                  const int &coluna1,
                                  const int &linha2,
@@ -17,6 +18,8 @@ double Calculadora::getDistancia(const int &linha1,
     return sqrt(pow(a, 2) + pow(b, 2));
 }
 
+// conta a quantidade de pontos pretos em uma MyMatrix e armazena em um MyVec
+// cada par <linha, coluna>
 void Calculadora::contarPontosPretos(const MyMatrix<Pixel> *matrix, MyVec<std::pair<int, int>> &coords) {
     for (int i = 0; i < matrix->getQtdLinhas(); i++) {
         for (int j = 0; j < matrix->getQtdColunas(); j++) {
@@ -26,6 +29,8 @@ void Calculadora::contarPontosPretos(const MyMatrix<Pixel> *matrix, MyVec<std::p
     }
 }
 
+// calcula a menor distancia de um determinado ponto em uma MyMatrix
+// usando o algoritmo trivial(o mais ineficiente de todos)
 double Calculadora::getMenorDistanciaTrivial(int linha, int coluna, const MyMatrix<Pixel> *matrix){
     double menorDistancia = std::numeric_limits<double>::max();
     // procura a menor distancia entre o pixel atual e os pixels pretos da matriz
@@ -33,7 +38,8 @@ double Calculadora::getMenorDistanciaTrivial(int linha, int coluna, const MyMatr
         for (int j = 0; j < matrix->getQtdColunas(); j++) {
             bool ehPreto = matrix->at(i, j).ehPreto();
             if(ehPreto) {
-                // se for preto, vai calcular a distancia e certificar se ela é a menor distancia percorrida até omomento
+                // se for preto, vai calcular a distancia e certificar se ela
+                // é a menor distancia percorrida até o momento
                 menorDistancia = std::min(getDistancia(linha, coluna, i, j), menorDistancia);
             }
         }
@@ -41,18 +47,21 @@ double Calculadora::getMenorDistanciaTrivial(int linha, int coluna, const MyMatr
     return menorDistancia;
 }
 
-// coords deve receber um MyVec com as coordenadas dos pixels pretos
-// dessa forma nao precisamos percorrer todos os pixels da matriz
+// faz o mesmo que a função acima, mas a abordagem é ligeiramente diferente:
+// ESTA função percorre apenas os pontos pretos de uma MyMatrix
  double Calculadora::getMenorDistanciaTrivialMelhorado(int linha, int coluna,
-     const MyVec<std::pair<int, int>> &coords) {
+                                                        const MyVec<std::pair<int, int>> &coords)
+{
      double menorDistancia = std::numeric_limits<double>::max();
      for(int i = 0; i < coords.size(); i++) {
          // certifica qual a menor distância percorrida até agora
          menorDistancia = std::min(getDistancia(linha, coluna, coords[i].first, coords[i].second), menorDistancia);
      }
      return menorDistancia;
- }
+}
 
+// gera uma nova MyMatrix "distancias" onde cada elemento é a distancia
+// do respectivo ponto na matrix de entrada até o ponto preto mais proximo dessa matrix.
 MyMatrix<double> * Calculadora::gerarDistanciasTrivial(const MyMatrix<Pixel> *matrix) {
     MyMatrix<double> *distancias = new MyMatrix<double>(matrix->getQtdColunas(), matrix->getQtdLinhas());
     // encontra o pixel preto mais próximo para cada pixel usando algoritmo mais intuitivo

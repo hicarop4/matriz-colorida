@@ -5,7 +5,6 @@
 #ifndef MYMATRIX_H
 #define MYMATRIX_H
 
-#include <cmath>
 #include <iostream>   // Para std::cin, std::cout, std::endl
 #include <cmath>      // Para funções matemáticas como std::round
 #include <stdexcept>  // Para std::out_of_range

@@ -13,7 +13,7 @@ using namespace std;
 int main(int argc, const char **argv) {
     if (argc < 3) {
         std::cerr << "Uso correto: " << argv[0] << " <ALGORITMO> <MODO_SAIDA> < <entrada.pbm> > <saida.pbm>" << std::endl;
-        return 1; // Retorna erro
+        return 1; // retorna erro
     }
 
     // le os argumentos

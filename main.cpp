@@ -28,21 +28,21 @@ int main(int argc, const char **argv) {
     cin >> tipoDeArquivo;
     cin >> qtdColunas >> qtdLinhas >> limiteCor;
 
-    // cria uma matrix de pixel e calcula as distancias entre cada pixel;
+    // cria uma matrix de pixel;
     MyMatrix<Pixel> *matrix = new MyMatrix<Pixel>(qtdColunas,
                                                     qtdLinhas);
     matrix->lerEntrada();
 
 
-    // gera distancias baseado no algoritmo
+    // *********** PARTE MAIS IMPORTANTE DO PROJETO ***********
+    // gera a matriz de distancias baseado no algoritmo escolhido
     MyMatrix<double> *distancias;
     if(strcmp(algoritmo, "trivial") == 0) {
         distancias = Calculadora::gerarDistanciasTrivial(matrix);
     } else if(strcmp(algoritmo, "melhorado") == 0) {
         distancias = Calculadora::gerarDistanciasTrivialMelhorado(matrix);
     } else {
-        // TODO
-        distancias = NULL;
+        distancias = Calculadora::gerarDistanciasEficiente(matrix);
     }
 
     // define o que será a saída do programa

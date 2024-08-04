@@ -84,40 +84,43 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/TRABALHO/src/Calculadora.cpp">
+		<Unit filename="C:/TRABALHO/Calculadora.cpp">
 			<Option target="TRABALHO"/>
 		</Unit>
-		<Unit filename="C:/TRABALHO/src/Calculadora.h">
+		<Unit filename="C:/TRABALHO/Calculadora.h">
 			<Option target="TRABALHO"/>
 		</Unit>
-		<Unit filename="C:/TRABALHO/src/GeradorImagem.cpp">
+		<Unit filename="C:/TRABALHO/Coords.h">
 			<Option target="TRABALHO"/>
 		</Unit>
-		<Unit filename="C:/TRABALHO/src/GeradorImagem.h">
+		<Unit filename="C:/TRABALHO/GeradorImagem.cpp">
 			<Option target="TRABALHO"/>
 		</Unit>
-		<Unit filename="C:/TRABALHO/src/Impressora.cpp">
+		<Unit filename="C:/TRABALHO/GeradorImagem.h">
 			<Option target="TRABALHO"/>
 		</Unit>
-		<Unit filename="C:/TRABALHO/src/Impressora.h">
+		<Unit filename="C:/TRABALHO/Impressora.cpp">
 			<Option target="TRABALHO"/>
 		</Unit>
-		<Unit filename="C:/TRABALHO/src/MyMatrix.h">
+		<Unit filename="C:/TRABALHO/Impressora.h">
 			<Option target="TRABALHO"/>
 		</Unit>
-		<Unit filename="C:/TRABALHO/src/MyVec.h">
+		<Unit filename="C:/TRABALHO/MyMatrix.h">
 			<Option target="TRABALHO"/>
 		</Unit>
-		<Unit filename="C:/TRABALHO/src/Pixel.cpp">
+		<Unit filename="C:/TRABALHO/MyVec.h">
 			<Option target="TRABALHO"/>
 		</Unit>
-		<Unit filename="C:/TRABALHO/src/Pixel.h">
+		<Unit filename="C:/TRABALHO/Pixel.cpp">
 			<Option target="TRABALHO"/>
 		</Unit>
-		<Unit filename="C:/TRABALHO/src/Teste.h">
+		<Unit filename="C:/TRABALHO/Pixel.h">
 			<Option target="TRABALHO"/>
 		</Unit>
-		<Unit filename="C:/TRABALHO/src/main.cpp">
+		<Unit filename="C:/TRABALHO/Teste.h">
+			<Option target="TRABALHO"/>
+		</Unit>
+		<Unit filename="C:/TRABALHO/main.cpp">
 			<Option target="TRABALHO"/>
 		</Unit>
 		<Unit filename="C:/TRABALHO/CMakeLists.txt">

@@ -15,4 +15,5 @@ add_executable(TRABALHO main.cpp
         GeradorImagem.h
         Impressora.cpp
         Impressora.h
+        Coords.h
 )

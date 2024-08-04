@@ -128,125 +128,125 @@ TRABALHO/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\TRABALHO.dir\build.make CMakeFiles/TRABALHO.dir/build
 .PHONY : TRABALHO/fast
 
-src/Calculadora.obj: src/Calculadora.cpp.obj
-.PHONY : src/Calculadora.obj
+Calculadora.obj: Calculadora.cpp.obj
+.PHONY : Calculadora.obj
 
 # target to build an object file
-src/Calculadora.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TRABALHO.dir\build.make CMakeFiles/TRABALHO.dir/src/Calculadora.cpp.obj
-.PHONY : src/Calculadora.cpp.obj
+Calculadora.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TRABALHO.dir\build.make CMakeFiles/TRABALHO.dir/Calculadora.cpp.obj
+.PHONY : Calculadora.cpp.obj
 
-src/Calculadora.i: src/Calculadora.cpp.i
-.PHONY : src/Calculadora.i
+Calculadora.i: Calculadora.cpp.i
+.PHONY : Calculadora.i
 
 # target to preprocess a source file
-src/Calculadora.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TRABALHO.dir\build.make CMakeFiles/TRABALHO.dir/src/Calculadora.cpp.i
-.PHONY : src/Calculadora.cpp.i
+Calculadora.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TRABALHO.dir\build.make CMakeFiles/TRABALHO.dir/Calculadora.cpp.i
+.PHONY : Calculadora.cpp.i
 
-src/Calculadora.s: src/Calculadora.cpp.s
-.PHONY : src/Calculadora.s
+Calculadora.s: Calculadora.cpp.s
+.PHONY : Calculadora.s
 
 # target to generate assembly for a file
-src/Calculadora.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TRABALHO.dir\build.make CMakeFiles/TRABALHO.dir/src/Calculadora.cpp.s
-.PHONY : src/Calculadora.cpp.s
+Calculadora.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TRABALHO.dir\build.make CMakeFiles/TRABALHO.dir/Calculadora.cpp.s
+.PHONY : Calculadora.cpp.s
 
-src/GeradorImagem.obj: src/GeradorImagem.cpp.obj
-.PHONY : src/GeradorImagem.obj
+GeradorImagem.obj: GeradorImagem.cpp.obj
+.PHONY : GeradorImagem.obj
 
 # target to build an object file
-src/GeradorImagem.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TRABALHO.dir\build.make CMakeFiles/TRABALHO.dir/src/GeradorImagem.cpp.obj
-.PHONY : src/GeradorImagem.cpp.obj
+GeradorImagem.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TRABALHO.dir\build.make CMakeFiles/TRABALHO.dir/GeradorImagem.cpp.obj
+.PHONY : GeradorImagem.cpp.obj
 
-src/GeradorImagem.i: src/GeradorImagem.cpp.i
-.PHONY : src/GeradorImagem.i
+GeradorImagem.i: GeradorImagem.cpp.i
+.PHONY : GeradorImagem.i
 
 # target to preprocess a source file
-src/GeradorImagem.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TRABALHO.dir\build.make CMakeFiles/TRABALHO.dir/src/GeradorImagem.cpp.i
-.PHONY : src/GeradorImagem.cpp.i
+GeradorImagem.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TRABALHO.dir\build.make CMakeFiles/TRABALHO.dir/GeradorImagem.cpp.i
+.PHONY : GeradorImagem.cpp.i
 
-src/GeradorImagem.s: src/GeradorImagem.cpp.s
-.PHONY : src/GeradorImagem.s
+GeradorImagem.s: GeradorImagem.cpp.s
+.PHONY : GeradorImagem.s
 
 # target to generate assembly for a file
-src/GeradorImagem.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TRABALHO.dir\build.make CMakeFiles/TRABALHO.dir/src/GeradorImagem.cpp.s
-.PHONY : src/GeradorImagem.cpp.s
+GeradorImagem.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TRABALHO.dir\build.make CMakeFiles/TRABALHO.dir/GeradorImagem.cpp.s
+.PHONY : GeradorImagem.cpp.s
 
-src/Impressora.obj: src/Impressora.cpp.obj
-.PHONY : src/Impressora.obj
+Impressora.obj: Impressora.cpp.obj
+.PHONY : Impressora.obj
 
 # target to build an object file
-src/Impressora.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TRABALHO.dir\build.make CMakeFiles/TRABALHO.dir/src/Impressora.cpp.obj
-.PHONY : src/Impressora.cpp.obj
+Impressora.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TRABALHO.dir\build.make CMakeFiles/TRABALHO.dir/Impressora.cpp.obj
+.PHONY : Impressora.cpp.obj
 
-src/Impressora.i: src/Impressora.cpp.i
-.PHONY : src/Impressora.i
+Impressora.i: Impressora.cpp.i
+.PHONY : Impressora.i
 
 # target to preprocess a source file
-src/Impressora.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TRABALHO.dir\build.make CMakeFiles/TRABALHO.dir/src/Impressora.cpp.i
-.PHONY : src/Impressora.cpp.i
+Impressora.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TRABALHO.dir\build.make CMakeFiles/TRABALHO.dir/Impressora.cpp.i
+.PHONY : Impressora.cpp.i
 
-src/Impressora.s: src/Impressora.cpp.s
-.PHONY : src/Impressora.s
+Impressora.s: Impressora.cpp.s
+.PHONY : Impressora.s
 
 # target to generate assembly for a file
-src/Impressora.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TRABALHO.dir\build.make CMakeFiles/TRABALHO.dir/src/Impressora.cpp.s
-.PHONY : src/Impressora.cpp.s
+Impressora.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TRABALHO.dir\build.make CMakeFiles/TRABALHO.dir/Impressora.cpp.s
+.PHONY : Impressora.cpp.s
 
-src/Pixel.obj: src/Pixel.cpp.obj
-.PHONY : src/Pixel.obj
+Pixel.obj: Pixel.cpp.obj
+.PHONY : Pixel.obj
 
 # target to build an object file
-src/Pixel.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TRABALHO.dir\build.make CMakeFiles/TRABALHO.dir/src/Pixel.cpp.obj
-.PHONY : src/Pixel.cpp.obj
+Pixel.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TRABALHO.dir\build.make CMakeFiles/TRABALHO.dir/Pixel.cpp.obj
+.PHONY : Pixel.cpp.obj
 
-src/Pixel.i: src/Pixel.cpp.i
-.PHONY : src/Pixel.i
+Pixel.i: Pixel.cpp.i
+.PHONY : Pixel.i
 
 # target to preprocess a source file
-src/Pixel.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TRABALHO.dir\build.make CMakeFiles/TRABALHO.dir/src/Pixel.cpp.i
-.PHONY : src/Pixel.cpp.i
+Pixel.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TRABALHO.dir\build.make CMakeFiles/TRABALHO.dir/Pixel.cpp.i
+.PHONY : Pixel.cpp.i
 
-src/Pixel.s: src/Pixel.cpp.s
-.PHONY : src/Pixel.s
+Pixel.s: Pixel.cpp.s
+.PHONY : Pixel.s
 
 # target to generate assembly for a file
-src/Pixel.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TRABALHO.dir\build.make CMakeFiles/TRABALHO.dir/src/Pixel.cpp.s
-.PHONY : src/Pixel.cpp.s
+Pixel.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TRABALHO.dir\build.make CMakeFiles/TRABALHO.dir/Pixel.cpp.s
+.PHONY : Pixel.cpp.s
 
-src/main.obj: src/main.cpp.obj
-.PHONY : src/main.obj
+main.obj: main.cpp.obj
+.PHONY : main.obj
 
 # target to build an object file
-src/main.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TRABALHO.dir\build.make CMakeFiles/TRABALHO.dir/src/main.cpp.obj
-.PHONY : src/main.cpp.obj
+main.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TRABALHO.dir\build.make CMakeFiles/TRABALHO.dir/main.cpp.obj
+.PHONY : main.cpp.obj
 
-src/main.i: src/main.cpp.i
-.PHONY : src/main.i
+main.i: main.cpp.i
+.PHONY : main.i
 
 # target to preprocess a source file
-src/main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TRABALHO.dir\build.make CMakeFiles/TRABALHO.dir/src/main.cpp.i
-.PHONY : src/main.cpp.i
+main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TRABALHO.dir\build.make CMakeFiles/TRABALHO.dir/main.cpp.i
+.PHONY : main.cpp.i
 
-src/main.s: src/main.cpp.s
-.PHONY : src/main.s
+main.s: main.cpp.s
+.PHONY : main.s
 
 # target to generate assembly for a file
-src/main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TRABALHO.dir\build.make CMakeFiles/TRABALHO.dir/src/main.cpp.s
-.PHONY : src/main.cpp.s
+main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TRABALHO.dir\build.make CMakeFiles/TRABALHO.dir/main.cpp.s
+.PHONY : main.cpp.s
 
 # Help Target
 help:
@@ -257,21 +257,21 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... TRABALHO
-	@echo ... src/Calculadora.obj
-	@echo ... src/Calculadora.i
-	@echo ... src/Calculadora.s
-	@echo ... src/GeradorImagem.obj
-	@echo ... src/GeradorImagem.i
-	@echo ... src/GeradorImagem.s
-	@echo ... src/Impressora.obj
-	@echo ... src/Impressora.i
-	@echo ... src/Impressora.s
-	@echo ... src/Pixel.obj
-	@echo ... src/Pixel.i
-	@echo ... src/Pixel.s
-	@echo ... src/main.obj
-	@echo ... src/main.i
-	@echo ... src/main.s
+	@echo ... Calculadora.obj
+	@echo ... Calculadora.i
+	@echo ... Calculadora.s
+	@echo ... GeradorImagem.obj
+	@echo ... GeradorImagem.i
+	@echo ... GeradorImagem.s
+	@echo ... Impressora.obj
+	@echo ... Impressora.i
+	@echo ... Impressora.s
+	@echo ... Pixel.obj
+	@echo ... Pixel.i
+	@echo ... Pixel.s
+	@echo ... main.obj
+	@echo ... main.i
+	@echo ... main.s
 .PHONY : help
 
 

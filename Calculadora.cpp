@@ -59,6 +59,8 @@ MyMatrix<double> * Calculadora::gerarDistanciasTrivial(const MyMatrix<Pixel> *ma
     return distancias;
 }
 
+// Gera a matriz de distancia percorrendo apenas os pontos pretos para calcular a distancia
+// (versão melhorada do algoritmo trivial que percorre todos os pontos no array)
 MyMatrix<double> * Calculadora::gerarDistanciasTrivialMelhorado(const MyMatrix<Pixel> *matrix) {
     MyVec<std::pair<int, int>> coords;
     contarPontosPretos(matrix, coords);
@@ -73,6 +75,8 @@ MyMatrix<double> * Calculadora::gerarDistanciasTrivialMelhorado(const MyMatrix<P
     return distancias;
 }
 
+// Gera a matriz de distâncias de forma eficiente
+// usando o algoritmo de propagação de onda dos pontos pretos iniciais e seus vizinhos
 MyMatrix<double> * Calculadora::gerarDistanciasEficiente(const MyMatrix<Pixel> *matrix) {
     MyPriorityQueue<std::pair<double, Coords>> queue;
 
@@ -153,7 +157,7 @@ void Calculadora::contarPontosPretos(const MyMatrix<Pixel> *matrix, MyVec<std::p
     }
 }
 
-
+// calcula a distancia de uma célula para uma célula vizinha
 double Calculadora::getDistanciaVizinho(const int &linha1, const int &coluna1, const int &linha2, const int &coluna2) {
     int deltaLinha = std::abs(linha1 - linha2);
     int deltaColuna = std::abs(coluna1 - coluna2);

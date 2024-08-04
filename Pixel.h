@@ -16,6 +16,7 @@ public:
 
     Pixel(int r, int g, int b);
 
+    // funções auxiliares para entrada e saída padrão
     friend std::ostream& operator<<(std::ostream &out, const Pixel &pixel);
     friend std::istream& operator>>(std::istream &in, Pixel &pixel);
 

@@ -6,6 +6,7 @@
 #include "hsv2rgb.h"
 #include <limits>
 
+// gera uma matriz de pixel colorida
 MyMatrix<Pixel>* GeradorImagem::gerarImagem(MyMatrix<double> *distancias) {
     MyMatrix<Pixel> *imagem = new MyMatrix<Pixel>(distancias->getQtdColunas(), distancias->getQtdLinhas());
     double maiorDistancia = encontrarMaiorDistancia(distancias);
@@ -19,6 +20,8 @@ MyMatrix<Pixel>* GeradorImagem::gerarImagem(MyMatrix<double> *distancias) {
     return imagem;
 }
 
+// encontra a maior distancia no array de distancias para poder usar como denominador
+// na conversão de HSV para RGB
 double GeradorImagem::encontrarMaiorDistancia(const MyMatrix<double> *distancias) {
     double maiorDistancia = std::numeric_limits<double>::min();
     for (int i = 0; i < distancias->getQtdLinhas(); i++) {

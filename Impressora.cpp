@@ -5,6 +5,7 @@
 #include "Impressora.h"
 #include <complex>
 
+// imprime a matriz de distancia arredondando seus valores
 void Impressora::imprimirDistancias(MyMatrix<double> *distancias) {
     for (int i = 0; i < distancias->getQtdLinhas(); i++) {
         for (int j = 0; j < distancias->getQtdColunas(); j++) {
@@ -14,6 +15,7 @@ void Impressora::imprimirDistancias(MyMatrix<double> *distancias) {
     }
 }
 
+// soma os valores arredondados das distancias e imprime o resultado
 void Impressora::imprimirResumo(MyMatrix<double> *distancias) {
     unsigned long long soma = 0;
     for (int i = 0; i < distancias->getQtdLinhas(); i++) {
@@ -24,6 +26,7 @@ void Impressora::imprimirResumo(MyMatrix<double> *distancias) {
     cout << soma << "\n";
 }
 
+// imprime uma matriz de pixel com uma saída formatada para uma imagem .ppm
 void Impressora::imprimirImagem(const string& tipoDeArquivo, MyMatrix<Pixel> *imagem) {
     cout << tipoDeArquivo << "\n";
     cout << imagem->getQtdColunas() << " " << imagem->getQtdLinhas() << "\n";

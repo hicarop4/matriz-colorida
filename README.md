@@ -41,5 +41,5 @@ O(L×C×P), tornando-se menos eficiente em matrizes muito grandes ou com muitos 
 Por fim, o algoritmo eficiente, se destaca, especialmente em matrizes maiores e mais complexas, como na de 100x100 com o máximo de triângulos e na de 1000x1000 com triângulos nas bordas. Mesmo em cenários onde os outros algoritmos falharam ou foram muito lentos, o algoritmo eficiente manteve tempos razoáveis, graças à sua complexidade,
 o que o torna escalável e adequado para imagens grandes e complexas.
 
-Créditos do header RGB2HSV: Salles Magalhães
+- Créditos do header HSV2RGB: Salles Magalhães
 

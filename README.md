@@ -1,7 +1,8 @@
-Eu li as regras
-# Matriz de Distância
-## Programa feito em C++ para calcular a distância entre cada pixel preto em uma imagem
+# Coloração Automática de Imagens em P&B 🌈
+## Transforme suas imagens em preto e branco em obras vibrantes de forma mágica! ✨
+### Este programa em C++ pega uma simples imagem em formato PPM preto e branco e cria uma nova versão cheia de cores, baseada em cálculos matemáticos que garantem uma explosão de tons únicos. 💥
 ------------------------------------------------------------------
+Você pode escolher três algoritmos, escolha-os baseado na quantidade de linhas, colunas e pontos pretos da sua imagem.
 A complexidade de cada algoritmo:
 
 1) Algoritmo trivial
@@ -14,7 +15,7 @@ também percorre todos os pixels da matriz para encontrar a menor distância at�
 - Justificativa sucinta: A função desse algoritmo percorre todos os pixels da matriz O(L * C) e para cada pixel chama "getMenorDistanciaTrivialMelhorado"
 que percorre um MyVec de coordenadas de pontos pretos O(P)
 
-3) Algoritmo eficiente (parte 2 do trabalho)
+3) Algoritmo eficiente
 - Complexidade: **O(L * C * log(L * C))**
 - Justificativa sucinta: A função usa uma fila de prioridades QUEUE para implementar uma espécie de algoritmo de propagação de ondas.
 O algoritmo usa uma fila de prioridade para processar as células da matriz, onde cada inserção e remoção possui complexidade O(log(L*C)),
@@ -40,4 +41,5 @@ O(L×C×P), tornando-se menos eficiente em matrizes muito grandes ou com muitos 
 Por fim, o algoritmo eficiente, se destaca, especialmente em matrizes maiores e mais complexas, como na de 100x100 com o máximo de triângulos e na de 1000x1000 com triângulos nas bordas. Mesmo em cenários onde os outros algoritmos falharam ou foram muito lentos, o algoritmo eficiente manteve tempos razoáveis, graças à sua complexidade,
 o que o torna escalável e adequado para imagens grandes e complexas.
 
+Créditos do header RGB2HSV: Salles Magalhães
 

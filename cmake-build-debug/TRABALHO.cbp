@@ -8,18 +8,18 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="C:/TRABALHO/cmake-build-debug"/>
+				<Option working_dir="C:/Users/Eu/Documents/matriz-de-distancias/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/TRABALHO/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/TRABALHO/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/TRABALHO/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/TRABALHO/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Eu/Documents/matriz-de-distancias/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Eu/Documents/matriz-de-distancias/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Eu/Documents/matriz-de-distancias/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Eu/Documents/matriz-de-distancias/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="TRABALHO">
-				<Option output="C:/TRABALHO/cmake-build-debug/TRABALHO.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/TRABALHO/cmake-build-debug"/>
+				<Option output="C:/Users/Eu/Documents/matriz-de-distancias/cmake-build-debug/TRABALHO.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Eu/Documents/matriz-de-distancias/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -34,15 +34,15 @@
 					<Add directory="/mingw/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/TRABALHO/cmake-build-debug/Makefile&quot;  VERBOSE=1 TRABALHO"/>
-					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/TRABALHO/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/TRABALHO/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/TRABALHO/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Eu/Documents/matriz-de-distancias/cmake-build-debug/Makefile&quot;  VERBOSE=1 TRABALHO"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Eu/Documents/matriz-de-distancias/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Eu/Documents/matriz-de-distancias/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Eu/Documents/matriz-de-distancias/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="TRABALHO/fast">
-				<Option output="C:/TRABALHO/cmake-build-debug/TRABALHO.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/TRABALHO/cmake-build-debug"/>
+				<Option output="C:/Users/Eu/Documents/matriz-de-distancias/cmake-build-debug/TRABALHO.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Eu/Documents/matriz-de-distancias/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -57,73 +57,73 @@
 					<Add directory="/mingw/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/TRABALHO/cmake-build-debug/Makefile&quot;  VERBOSE=1 TRABALHO/fast"/>
-					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/TRABALHO/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/TRABALHO/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/TRABALHO/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Eu/Documents/matriz-de-distancias/cmake-build-debug/Makefile&quot;  VERBOSE=1 TRABALHO/fast"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Eu/Documents/matriz-de-distancias/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Eu/Documents/matriz-de-distancias/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Eu/Documents/matriz-de-distancias/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="C:/TRABALHO/cmake-build-debug"/>
+				<Option working_dir="C:/Users/Eu/Documents/matriz-de-distancias/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/TRABALHO/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/TRABALHO/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/TRABALHO/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/TRABALHO/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Eu/Documents/matriz-de-distancias/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Eu/Documents/matriz-de-distancias/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Eu/Documents/matriz-de-distancias/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Eu/Documents/matriz-de-distancias/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="C:/TRABALHO/cmake-build-debug"/>
+				<Option working_dir="C:/Users/Eu/Documents/matriz-de-distancias/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/TRABALHO/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/TRABALHO/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/TRABALHO/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/TRABALHO/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Eu/Documents/matriz-de-distancias/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Eu/Documents/matriz-de-distancias/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Eu/Documents/matriz-de-distancias/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Eu/Documents/matriz-de-distancias/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/TRABALHO/Calculadora.cpp">
+		<Unit filename="C:/Users/Eu/Documents/matriz-de-distancias/Calculadora.cpp">
 			<Option target="TRABALHO"/>
 		</Unit>
-		<Unit filename="C:/TRABALHO/Calculadora.h">
+		<Unit filename="C:/Users/Eu/Documents/matriz-de-distancias/Calculadora.h">
 			<Option target="TRABALHO"/>
 		</Unit>
-		<Unit filename="C:/TRABALHO/Coords.h">
+		<Unit filename="C:/Users/Eu/Documents/matriz-de-distancias/Coords.h">
 			<Option target="TRABALHO"/>
 		</Unit>
-		<Unit filename="C:/TRABALHO/GeradorImagem.cpp">
+		<Unit filename="C:/Users/Eu/Documents/matriz-de-distancias/GeradorImagem.cpp">
 			<Option target="TRABALHO"/>
 		</Unit>
-		<Unit filename="C:/TRABALHO/GeradorImagem.h">
+		<Unit filename="C:/Users/Eu/Documents/matriz-de-distancias/GeradorImagem.h">
 			<Option target="TRABALHO"/>
 		</Unit>
-		<Unit filename="C:/TRABALHO/Impressora.cpp">
+		<Unit filename="C:/Users/Eu/Documents/matriz-de-distancias/Impressora.cpp">
 			<Option target="TRABALHO"/>
 		</Unit>
-		<Unit filename="C:/TRABALHO/Impressora.h">
+		<Unit filename="C:/Users/Eu/Documents/matriz-de-distancias/Impressora.h">
 			<Option target="TRABALHO"/>
 		</Unit>
-		<Unit filename="C:/TRABALHO/MyMatrix.h">
+		<Unit filename="C:/Users/Eu/Documents/matriz-de-distancias/MyMatrix.h">
 			<Option target="TRABALHO"/>
 		</Unit>
-		<Unit filename="C:/TRABALHO/MyVec.h">
+		<Unit filename="C:/Users/Eu/Documents/matriz-de-distancias/MyVec.h">
 			<Option target="TRABALHO"/>
 		</Unit>
-		<Unit filename="C:/TRABALHO/Pixel.cpp">
+		<Unit filename="C:/Users/Eu/Documents/matriz-de-distancias/Pixel.cpp">
 			<Option target="TRABALHO"/>
 		</Unit>
-		<Unit filename="C:/TRABALHO/Pixel.h">
+		<Unit filename="C:/Users/Eu/Documents/matriz-de-distancias/Pixel.h">
 			<Option target="TRABALHO"/>
 		</Unit>
-		<Unit filename="C:/TRABALHO/Teste.h">
+		<Unit filename="C:/Users/Eu/Documents/matriz-de-distancias/Teste.h">
 			<Option target="TRABALHO"/>
 		</Unit>
-		<Unit filename="C:/TRABALHO/main.cpp">
+		<Unit filename="C:/Users/Eu/Documents/matriz-de-distancias/main.cpp">
 			<Option target="TRABALHO"/>
 		</Unit>
-		<Unit filename="C:/TRABALHO/CMakeLists.txt">
+		<Unit filename="C:/Users/Eu/Documents/matriz-de-distancias/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

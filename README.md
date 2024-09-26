@@ -2,6 +2,13 @@
 ## Transforme suas imagens em preto e branco em obras vibrantes de forma mágica! ✨
 ### Este programa em C++ pega uma simples imagem em formato PPM preto e branco e cria uma nova versão cheia de cores, baseada em cálculos matemáticos que garantem uma explosão de tons únicos. 💥
 ------------------------------------------------------------------
+<div style="display: flex;">
+    <img src="https://github.com/user-attachments/assets/4ae23ae6-ce0d-4bd4-bcd2-956f45c68cbe" alt="antes" width="300" height="300" style="margin-right: 30px;"/>
+    <img src="https://github.com/user-attachments/assets/d320b220-544a-43e1-90cf-b470ee51a81b" alt="depois" width="300" height="300"/>
+</div>
+
+------------------------------------------------------------------
+
 Você pode escolher três algoritmos, escolha-os baseado na quantidade de linhas, colunas e pontos pretos da sua imagem.
 A complexidade de cada algoritmo:
 

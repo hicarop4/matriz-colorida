@@ -1,1 +1,0 @@
-/usr/bin/c++ -O3 -DNDEBUG CMakeFiles/TRABALHO.dir/src/main.cpp.o CMakeFiles/TRABALHO.dir/src/Pixel.cpp.o CMakeFiles/TRABALHO.dir/src/Calculadora.cpp.o -o TRABALHO 

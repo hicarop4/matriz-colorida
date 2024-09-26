@@ -1,3 +1,0 @@
-C:/Users/Eu/Documents/matriz-de-distancias/cmake-build-debug/CMakeFiles/TRABALHO.dir
-C:/Users/Eu/Documents/matriz-de-distancias/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/Eu/Documents/matriz-de-distancias/cmake-build-debug/CMakeFiles/rebuild_cache.dir

@@ -62,6 +62,8 @@ Antes de compilar e executar o programa, você precisará ter o seguinte instala
 
 - [CMake](https://cmake.org/download/) (versão 3.22.1 ou superior)
 - [GNU Compiler Collection (GCC)](https://gcc.gnu.org/) (ou um compilador C++ compatível)
+- [CLion](https://www.jetbrains.com/clion/) (opcional, mas recomendado para facilitar o desenvolvimento)
+
 
 <br> Para compilar e executar o programa, utilize os seguintes comandos no terminal:<br/>
 

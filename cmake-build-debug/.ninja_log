@@ -1,7 +1,10 @@
 # ninja log v6
-7	626	7497150422305006	CMakeFiles/TRABALHO.dir/src/Pixel.cpp.obj	1cc19af7bc961460
-3	634	7497150422265001	CMakeFiles/TRABALHO.dir/main.cpp.obj	29751c0876f9d813
-13	648	7497150422364997	CMakeFiles/TRABALHO.dir/src/GeradorImagem.cpp.obj	83a0c4c8f8a5d084
-16	661	7497150422395001	CMakeFiles/TRABALHO.dir/src/Impressora.cpp.obj	9b7a3a8a104b959d
-6	494	7497150494824719	CMakeFiles/TRABALHO.dir/src/Calculadora.cpp.obj	bca0a09f5fef7730
 494	624	7497150499704782	TRABALHO.exe	d439074df249f45f
+3	180	7497164044044912	build.ninja	37b7bbdd44b099d
+530	599	7497162639221890	COLORIR.exe	565fd20a034f8f1a
+6	433	7497164082557982	CMakeFiles/colorir.out.dir/src/Pixel.cpp.obj	4d7d0e8e4af955f0
+2	548	7497164082517985	CMakeFiles/colorir.out.dir/main.cpp.obj	1772983fec82d170
+11	557	7497164082607972	CMakeFiles/colorir.out.dir/src/GeradorImagem.cpp.obj	e9b95f6e35b55d78
+14	557	7497164082637982	CMakeFiles/colorir.out.dir/src/Impressora.cpp.obj	be5f640314582f02
+9	631	7497164082577977	CMakeFiles/colorir.out.dir/src/Calculadora.cpp.obj	87f89ee1f9504212
+631	703	7497164088802722	colorir.out.exe	6b4aafc64b3e64bc

@@ -3,7 +3,7 @@ project(TRABALHO)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(TRABALHO main.cpp
+add_executable(colorir main.cpp
         includes/MyMatrix.h
         src/Pixel.cpp
         includes/Pixel.h

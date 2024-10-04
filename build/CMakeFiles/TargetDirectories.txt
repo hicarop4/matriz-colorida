@@ -1,3 +1,0 @@
-/mnt/c/Users/Eu/Documents/matriz-de-distancias/build/CMakeFiles/TRABALHO.dir
-/mnt/c/Users/Eu/Documents/matriz-de-distancias/build/CMakeFiles/edit_cache.dir
-/mnt/c/Users/Eu/Documents/matriz-de-distancias/build/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,36 @@
+# Diretórios de build
+/build/
+/cmake-build-debug/
+/cmake-build-release/
+
+# Arquivos de configuração de ambiente do CLion
+.idea/
+*.iml
+
+# Arquivos gerados pelo CMake
+CMakeFiles/
+CMakeCache.txt
+Makefile
+cmake_install.cmake
+*.cmake
+
+# Arquivos temporários e de log
+*.log
+*.tmp
+*.temp
+*.o
+*.so
+*.exe
+*.out
+*.dSYM/
+
+# Arquivos de dependência
+*.d
+
+# Outros arquivos que podem ser gerados
+*.user
+*.userprefs
+
+# Diretórios de bibliotecas externas
+lib/
+libs/

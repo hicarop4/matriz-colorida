@@ -41,72 +41,72 @@ include CMakeFiles/rules.ninja
 
 cmake_ninja_workdir = C$:/Users/Eu/Documents/matriz-de-distancias/cmake-build-debug/
 # =============================================================================
-# Object build statements for EXECUTABLE target TRABALHO
+# Object build statements for EXECUTABLE target colorir.out
 
 
 #############################################
-# Order-only phony target for TRABALHO
+# Order-only phony target for colorir.out
 
-build cmake_object_order_depends_target_TRABALHO: phony || CMakeFiles/TRABALHO.dir
+build cmake_object_order_depends_target_colorir.out: phony || CMakeFiles/colorir.out.dir
 
-build CMakeFiles/TRABALHO.dir/main.cpp.obj: CXX_COMPILER__TRABALHO_unscanned_Debug C$:/Users/Eu/Documents/matriz-de-distancias/main.cpp || cmake_object_order_depends_target_TRABALHO
-  DEP_FILE = CMakeFiles\TRABALHO.dir\main.cpp.obj.d
+build CMakeFiles/colorir.out.dir/main.cpp.obj: CXX_COMPILER__colorir.2eout_unscanned_Debug C$:/Users/Eu/Documents/matriz-de-distancias/main.cpp || cmake_object_order_depends_target_colorir.out
+  DEP_FILE = CMakeFiles\colorir.out.dir\main.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\TRABALHO.dir
-  OBJECT_FILE_DIR = CMakeFiles\TRABALHO.dir
-  TARGET_COMPILE_PDB = CMakeFiles\TRABALHO.dir\
-  TARGET_PDB = TRABALHO.pdb
+  OBJECT_DIR = CMakeFiles\colorir.out.dir
+  OBJECT_FILE_DIR = CMakeFiles\colorir.out.dir
+  TARGET_COMPILE_PDB = CMakeFiles\colorir.out.dir\
+  TARGET_PDB = colorir.out.pdb
 
-build CMakeFiles/TRABALHO.dir/src/Pixel.cpp.obj: CXX_COMPILER__TRABALHO_unscanned_Debug C$:/Users/Eu/Documents/matriz-de-distancias/src/Pixel.cpp || cmake_object_order_depends_target_TRABALHO
-  DEP_FILE = CMakeFiles\TRABALHO.dir\src\Pixel.cpp.obj.d
+build CMakeFiles/colorir.out.dir/src/Pixel.cpp.obj: CXX_COMPILER__colorir.2eout_unscanned_Debug C$:/Users/Eu/Documents/matriz-de-distancias/src/Pixel.cpp || cmake_object_order_depends_target_colorir.out
+  DEP_FILE = CMakeFiles\colorir.out.dir\src\Pixel.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\TRABALHO.dir
-  OBJECT_FILE_DIR = CMakeFiles\TRABALHO.dir\src
-  TARGET_COMPILE_PDB = CMakeFiles\TRABALHO.dir\
-  TARGET_PDB = TRABALHO.pdb
+  OBJECT_DIR = CMakeFiles\colorir.out.dir
+  OBJECT_FILE_DIR = CMakeFiles\colorir.out.dir\src
+  TARGET_COMPILE_PDB = CMakeFiles\colorir.out.dir\
+  TARGET_PDB = colorir.out.pdb
 
-build CMakeFiles/TRABALHO.dir/src/Calculadora.cpp.obj: CXX_COMPILER__TRABALHO_unscanned_Debug C$:/Users/Eu/Documents/matriz-de-distancias/src/Calculadora.cpp || cmake_object_order_depends_target_TRABALHO
-  DEP_FILE = CMakeFiles\TRABALHO.dir\src\Calculadora.cpp.obj.d
+build CMakeFiles/colorir.out.dir/src/Calculadora.cpp.obj: CXX_COMPILER__colorir.2eout_unscanned_Debug C$:/Users/Eu/Documents/matriz-de-distancias/src/Calculadora.cpp || cmake_object_order_depends_target_colorir.out
+  DEP_FILE = CMakeFiles\colorir.out.dir\src\Calculadora.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\TRABALHO.dir
-  OBJECT_FILE_DIR = CMakeFiles\TRABALHO.dir\src
-  TARGET_COMPILE_PDB = CMakeFiles\TRABALHO.dir\
-  TARGET_PDB = TRABALHO.pdb
+  OBJECT_DIR = CMakeFiles\colorir.out.dir
+  OBJECT_FILE_DIR = CMakeFiles\colorir.out.dir\src
+  TARGET_COMPILE_PDB = CMakeFiles\colorir.out.dir\
+  TARGET_PDB = colorir.out.pdb
 
-build CMakeFiles/TRABALHO.dir/src/GeradorImagem.cpp.obj: CXX_COMPILER__TRABALHO_unscanned_Debug C$:/Users/Eu/Documents/matriz-de-distancias/src/GeradorImagem.cpp || cmake_object_order_depends_target_TRABALHO
-  DEP_FILE = CMakeFiles\TRABALHO.dir\src\GeradorImagem.cpp.obj.d
+build CMakeFiles/colorir.out.dir/src/GeradorImagem.cpp.obj: CXX_COMPILER__colorir.2eout_unscanned_Debug C$:/Users/Eu/Documents/matriz-de-distancias/src/GeradorImagem.cpp || cmake_object_order_depends_target_colorir.out
+  DEP_FILE = CMakeFiles\colorir.out.dir\src\GeradorImagem.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\TRABALHO.dir
-  OBJECT_FILE_DIR = CMakeFiles\TRABALHO.dir\src
-  TARGET_COMPILE_PDB = CMakeFiles\TRABALHO.dir\
-  TARGET_PDB = TRABALHO.pdb
+  OBJECT_DIR = CMakeFiles\colorir.out.dir
+  OBJECT_FILE_DIR = CMakeFiles\colorir.out.dir\src
+  TARGET_COMPILE_PDB = CMakeFiles\colorir.out.dir\
+  TARGET_PDB = colorir.out.pdb
 
-build CMakeFiles/TRABALHO.dir/src/Impressora.cpp.obj: CXX_COMPILER__TRABALHO_unscanned_Debug C$:/Users/Eu/Documents/matriz-de-distancias/src/Impressora.cpp || cmake_object_order_depends_target_TRABALHO
-  DEP_FILE = CMakeFiles\TRABALHO.dir\src\Impressora.cpp.obj.d
+build CMakeFiles/colorir.out.dir/src/Impressora.cpp.obj: CXX_COMPILER__colorir.2eout_unscanned_Debug C$:/Users/Eu/Documents/matriz-de-distancias/src/Impressora.cpp || cmake_object_order_depends_target_colorir.out
+  DEP_FILE = CMakeFiles\colorir.out.dir\src\Impressora.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\TRABALHO.dir
-  OBJECT_FILE_DIR = CMakeFiles\TRABALHO.dir\src
-  TARGET_COMPILE_PDB = CMakeFiles\TRABALHO.dir\
-  TARGET_PDB = TRABALHO.pdb
+  OBJECT_DIR = CMakeFiles\colorir.out.dir
+  OBJECT_FILE_DIR = CMakeFiles\colorir.out.dir\src
+  TARGET_COMPILE_PDB = CMakeFiles\colorir.out.dir\
+  TARGET_PDB = colorir.out.pdb
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target TRABALHO
+# Link build statements for EXECUTABLE target colorir.out
 
 
 #############################################
-# Link the executable TRABALHO.exe
+# Link the executable colorir.out.exe
 
-build TRABALHO.exe: CXX_EXECUTABLE_LINKER__TRABALHO_Debug CMakeFiles/TRABALHO.dir/main.cpp.obj CMakeFiles/TRABALHO.dir/src/Pixel.cpp.obj CMakeFiles/TRABALHO.dir/src/Calculadora.cpp.obj CMakeFiles/TRABALHO.dir/src/GeradorImagem.cpp.obj CMakeFiles/TRABALHO.dir/src/Impressora.cpp.obj
+build colorir.out.exe: CXX_EXECUTABLE_LINKER__colorir.2eout_Debug CMakeFiles/colorir.out.dir/main.cpp.obj CMakeFiles/colorir.out.dir/src/Pixel.cpp.obj CMakeFiles/colorir.out.dir/src/Calculadora.cpp.obj CMakeFiles/colorir.out.dir/src/GeradorImagem.cpp.obj CMakeFiles/colorir.out.dir/src/Impressora.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\TRABALHO.dir
+  OBJECT_DIR = CMakeFiles\colorir.out.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = CMakeFiles\TRABALHO.dir\
-  TARGET_FILE = TRABALHO.exe
-  TARGET_IMPLIB = libTRABALHO.dll.a
-  TARGET_PDB = TRABALHO.pdb
+  TARGET_COMPILE_PDB = CMakeFiles\colorir.out.dir\
+  TARGET_FILE = colorir.out.exe
+  TARGET_IMPLIB = libcolorir.out.dll.a
+  TARGET_PDB = colorir.out.pdb
 
 
 #############################################
@@ -134,7 +134,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
-build TRABALHO: phony TRABALHO.exe
+build colorir.out: phony colorir.out.exe
 
 # =============================================================================
 # Folder targets.
@@ -144,7 +144,7 @@ build TRABALHO: phony TRABALHO.exe
 #############################################
 # Folder: C:/Users/Eu/Documents/matriz-de-distancias/cmake-build-debug
 
-build all: phony TRABALHO.exe
+build all: phony colorir.out.exe
 
 # =============================================================================
 # Built-in targets

@@ -56,5 +56,28 @@ O(L×C×P), tornando-se menos eficiente em matrizes muito grandes ou com muitos 
 Por fim, o algoritmo eficiente, se destaca, especialmente em matrizes maiores e mais complexas, como na de 100x100 com o máximo de triângulos e na de 1000x1000 com triângulos nas bordas. Mesmo em cenários onde os outros algoritmos falharam ou foram muito lentos, o algoritmo eficiente manteve tempos razoáveis, graças à sua complexidade,
 o que o torna escalável e adequado para imagens grandes e complexas.
 
+
+## Compilação e Execução
+Antes de compilar e executar o programa, você precisará ter o seguinte instalado:
+
+- [CMake](https://cmake.org/download/) (versão 3.22.1 ou superior)
+- [GNU Compiler Collection (GCC)](https://gcc.gnu.org/) (ou um compilador C++ compatível)
+
+<br> Para compilar e executar o programa, utilize os seguintes comandos no terminal:<br/>
+
+```bash
+# Crie um diretório de build e navegue até ele
+mkdir build && cd build
+
+# Execute o CMake para gerar os arquivos de compilação
+cmake ..
+
+# Compile o projeto
+cmake --build .
+
+# Execute o programa
+./COLORIR  # Ou execute pelo CLion
+```
+
 - Créditos do header HSV2RGB: Salles Magalhães
 

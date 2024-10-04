@@ -1,11 +1,11 @@
 #include <iostream>
 #include <cstring>
 
-#include "MyMatrix.h"
-#include "Pixel.h"
-#include "Calculadora.h"
-#include "GeradorImagem.h"
-#include "Impressora.h"
+#include "includes/MyMatrix.h"
+#include "includes/Pixel.h"
+#include "includes/Calculadora.h"
+#include "includes/GeradorImagem.h"
+#include "includes/Impressora.h"
 
 
 using namespace std;
@@ -13,6 +13,8 @@ using namespace std;
 int main(int argc, const char **argv) {
     if (argc < 3) {
         std::cerr << "Uso correto: " << argv[0] << " <ALGORITMO> <MODO_SAIDA> < <entrada.pbm> > <saida.pbm>" << std::endl;
+        std::cerr << "Opções de ALGORITMO: trivial, melhorado, eficiente" << std::endl;
+        std::cerr << "Opções de MODO_SAIDA: distancia, resumo, imagem" << std::endl;
         return 1; // retorna erro
     }
 

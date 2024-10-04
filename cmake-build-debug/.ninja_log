@@ -1,0 +1,7 @@
+# ninja log v6
+7	626	7497150422305006	CMakeFiles/TRABALHO.dir/src/Pixel.cpp.obj	1cc19af7bc961460
+3	634	7497150422265001	CMakeFiles/TRABALHO.dir/main.cpp.obj	29751c0876f9d813
+13	648	7497150422364997	CMakeFiles/TRABALHO.dir/src/GeradorImagem.cpp.obj	83a0c4c8f8a5d084
+16	661	7497150422395001	CMakeFiles/TRABALHO.dir/src/Impressora.cpp.obj	9b7a3a8a104b959d
+6	494	7497150494824719	CMakeFiles/TRABALHO.dir/src/Calculadora.cpp.obj	bca0a09f5fef7730
+494	624	7497150499704782	TRABALHO.exe	d439074df249f45f

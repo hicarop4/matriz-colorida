@@ -1,6 +1,6 @@
-# Coloração Automática de Imagens em P&B 🌈
+# Coloração Automática de Imagens em P&B
 ## Transforme suas imagens em preto e branco em obras vibrantes de forma mágica! ✨
-### Este programa em C++ pega uma simples imagem em formato PPM preto e branco e cria uma nova versão cheia de cores, baseada em cálculos matemáticos que garantem uma explosão de tons únicos. 💥
+### Este programa em C++ pega uma simples imagem em formato PPM preto e branco e cria uma nova versão cheia de cores, baseada em cálculos matemáticos que garantem uma explosão de tons únicos. 
 ------------------------------------------------------------------
 
 <div style="display: flex;">
